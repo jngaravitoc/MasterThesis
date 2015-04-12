@@ -17,8 +17,7 @@ that the speed of light is finite, observations of the farther
 regions of the Universe are also from the youngest stages of the Universe.
 This allows to observe the evolution of the Universe during redshift.
 
-There are two techniques to observe the Universe, photometry and spectroscopy.  
-Photometric observations measures the flux astronomical objects in different filters. This allows to dereive quantites such as the luminosity and the temperature. While spectroscopic observations would let study in deep detail
+There are two techniques to measure the radiation comming from the Univserse; photometry and spectroscopy. Photometric observations measures the flux astronomical objects in different filters. This allows to dereive quantites such as the luminosity and the temperature. While spectroscopic observations would let study in deep detail
 the spectra of anstronomical objects, in particular the spectra of 
 galaxies reveals properties such as: the popuation of stars in the galaxy, the
 redshift, the elements that constitute this objects, the characteristics 
@@ -46,71 +45,140 @@ improved our understanding of the high redshift Universe.
 
 \section{\emph{Historical Remarks}}
 
-The emission of the Lyman $\alpha$ line in galaxies was first predicted by \citep{PartridgePeebles} in their work they suggest that 
+The emission of the \ly line in galaxies was first predicted by 
+\citep{PartridgePeebles} in 1967, in their work they suggest that the \ly luminosity
+could amount the lumonosity of the galaxies at high redshift, and that 
+it could be detected. 
+
+By the same epoch the radiative transfer theory in \ly systems started to be
+ studied by \citep{Osterbrock62, Adams72,Harrington73, Neufeld90},
+ it can be seen as a difussion process if it is carried out in 
+ optically thick medium. It means that \ly photons propagating 
+in a medium are difussing in space and in wavelenght from the line center.   
+Because of the complexity of the systems this analytical solutions 
+can only be carried out with simplifications. 
 
 
+Almost tree decades later \citep{DjorgovskiThomson92} detected the first \ly emmiter galaxy (LAE), since then hundreds of galaxys has been  
+observed at redshifts $z>2$ (citaciones). There is a confirmed LAE at $z=8.6$ by \citep{Lenhert2010} and candidates up to $z\sim12$ by \citep{Brammer12}. 
+The \ly line have the potential as a tool to confirm galaxies at the highest 
+redsifts. 
 
+Despite all this observational efforts to fully understanding radiative
+tranfer (RT) of the \ly line numerical simulations started to be performed.
+({\bf{citaciones}})
+
+More recently various teams \citep{Mas-Hesse09,LARS} have
+observed nearby galaxies with the Hubble Space Telescope. With the
+aim to have good resolution spectra and images of the HI distribution 
+and kinematics. This new spectra now can be compared with the numerical 
+models developed.
+
+ 
 
 \section{\emph{The Lyman $\alpha$ line in astronomy}}
 
-The Lyman $\alpha$ (Here after \ly) emission line is a consecuence of the transition 
+The Lyman $\alpha$ (Here after \ly) emission line is a consecuence of the 
+transition 
 from the first excited level to the ground level of the electrons
 in the Hydrogen atom. When the electron undergoes in such transition 
 a photon is emitted with an energy of $13.6eV$ which corresponds to 
 a rest wavelenght of $1215.67 \AA$. 
 
-The main sources of the \lya emission is star formoing galaxies, 
+This transition is very common in the Universe due to the high abundance
+of hydrogen. Two main mechanisms end up in \ly radiations: Recombination 
+processes and collisional events of Hydrogen atoms. UV stellar radiation
+from star regions (Recombination) , Gravitational 
+cooling (Collisional) and UV background radiation (Recombination) the interested
+reader could be interestes in\citep{LaursenPhD} and references within for
+more details. 
 
-\subsection{Resonant scattering}
+The detection of the \ly line has been broadly studied and has multiple 
+applications in extragalactic astronomy:
 
-Hydrogen is the most abundant element in the Universe furthermore
-the Lyman$\alpha$ line is a very common line. However the transmission of this
-Lyman$\alpha$ photons through the Hydrogen clouds it's not trivial. There 
-are two main aspects that heavily influce the morphology of the line.\\
-
-Imagine that for some reason there is one Hydrogen atom which emits 
-a \ly photon in the middle of a cloud of Hydrogen atoms which are in the
-ground state. The \ly photon will be abosrved and re-emitted from 
-the Hydrogen atoms. This process will end up in a random walk in the space,
-and the photon can escape the cloud at any point in the surface of it.\\
-
-In the previous situation all the Hydrogen atoms were in rest, if the atoms
-present proper motions there would be a doppler shift. If an atom have a velocity 
-$v$ an emit a \ly photon in the direction opposite to the movement the \ly photon 
-would be redshifted by an ammount r  
-
+\begin{itemize}
+\item {\bf{Detection of high $z$ galaxies:}} One of the most used 
+methods to detect high redshift galaxies is finding the \ly emission 
+line using Narrow band imaging or Spectroscopy, with this method 
+hundreds of galaxies has been detected. This 
+allows to study properties of the high redshift Universe such as
+the Large Scale structure. 
  
+\item {\bf{Galaxy formation and evolution:}} Observed LAEs at different
+reshifts have allowed to derive the Lumimosity Functions (LFs) of LAEs, 
+for this aim a good knowledge of the escape fracition of 
+photons is requiered $f_{esc}$ see \S \ref{sec:fesc} for details on the \ly
+photons escape fraction. Understanding the observed LAEs LFs enhance a
+better understanding of the galaxy formation models. 
 
-\subsection{Units, Quantities \& Definitions}
+\item {\bf{Reionization:}} The Epoch of Reionization (EoR) is a mayor
+epoch in the Universe, in which the neutral cold HI gas reionize to 
+become a hot gas. There are evindece from CMB measurements that 
+the EoR must start around $z >> 11$ and should end at $z\sim5$. During this 
+epoch the intergalactic medium (IGM) became opaque to \ly radiation 
+outcomming from high redfshift galaxies. LAEs have shown to be 
+very usefull in constrainig the time at wich the EoR ends. For a complete
+recent review please see \citep{review}
+ 
+\end{itemize}
 
-Through this work we will use some units and quantities that perhaps the reader 
-may not be familiar with. Here we define this quantities. 
+
+\section{Units, Quantities \& Definitions}
+
+Through this work we will use some units and quantities that perhaps the reader
+may not be familiar with. Here we define this quantities.
 
 \subsection{Optical depth and Column Density}
 
-\subsection{\ly line profile units} 
+The optical depth $\tau$ is a measure of the "transparency" of the medium
+in which the photons are propagating. And is defined as:
 
-The frequency $\nu_{\alpha}$ of a \ly photon in rest frame is 
-$2.46\times 10^{15}Hz$, 
-there are two main units in which the frequency of the \ly alpha photons 
-may be presented in the literature.  
+\begin{equation}
+d\tau = \alpha dr
+\end{equation}
+
+Where $\alpha$ is the absortion coefficient and is defined as the  :
+
+\begin{equation}
+\dfrac{dI}{dr} = -\alpha I
+\end{equation}
+
+From this definitions we can now define the "thickness" of the medium,
+if $\tau > 1$ we said the medium in optically thick and this means
+that a photon with frequency $\nu$ cannot go through without been
+absorbed. If $\tau < 1$ the medium is optically thin and the photon
+could be pass through with out been absorbed.
+
+The optical depth is  a measure of the distance of the source
+of photons to the surface of the medium. It is also very common 
+to express the amount of gas between the \ly source and the surface
+in of the Hydrogen column density 
+$N_{HI}$ which is related with the optical depth by $N_{HI} = \tau/\sigma$
+where $\sigma$ is the Hydrogen atom cross section. 
+
+\subsection{\ly line profile units}
+
+The frequency $\nu_{\alpha}$ of a \ly photon in rest frame is
+$2.46\times 10^{15}Hz$,
+there are two main units in which the frequency of the \ly alpha photons
+may be presented in the literature.
 
 The first is a dimensionless vairable $x$ defined as:
 \begin{equation}\label{eq:x}
 x   \equiv \dfrac{(\nu -\nu_{\alpha})}{\Delta \nu_D}
 \end{equation}
 
-Where $\nu$ is the frecuency in the observer frame,  
-$\nu_D$ is the broadening of the line due to the termal 
-velocity of the Hydrogen atoms $v_{th}$. Which can be derived 
-assumming that the Hydrogen gas is in thermal equilibrium 
+Where $\nu$ is the frecuency in the observer frame,
+$\nu_D$ is the broadening of the line due to the termal
+velocity of the Hydrogen atoms $v_{th}$. Which can be derived
+assumming that the Hydrogen gas is in thermal equilibrium
 and follow a Maxwellian distribution.
 
 \begin{equation}
 \dfrac{m_H v_{th}}{2} = K_B T 
-\end{equation} 
+\end{equation}
 
-Where $m_H$ is the Hydrogen atom mass, $K_B$ the Boltzmann constant and $T$ 
+Where $m_H$ is the Hydrogen atom mass, $K_B$ the Boltzmann constant and $T$
 the temparature, the expresion for $v_{th}$ is then:
 
 \begin{equation}
@@ -123,7 +191,7 @@ The Doppler shift due to $v_{th}$ would be:
 \nu'= (1 - \dfrac{\vec{v_{th}}\cdot\vec{n}}{c})\nu_{\alpha}
 \end{equation}
 
-Which can be expressed in terms of $\Delta \nu_D$ as: 
+Which can be expressed in terms of $\Delta \nu_D$ as:
 
 \begin{equation}
 \nu_{\alpha} - \nu' = \Delta\nu_D =  \dfrac{\vec{v_{th}}\cdot\vec{n}}{c}
@@ -136,26 +204,148 @@ making use of Eq.\ref{eq:x}:
 V = xv_{th} = \dfrac{\nu - \nu_{alpha}}c
 \end{equation}
 
+\subsection{Average number of scatterings $N_{scatt}$}
+
+The path of a \ly photon inside an {\bf{optically thick}}
+HI medium is resonant this is explained in more detail 
+in \S \ref{sec:resonant}. It basically means the the \ly photon
+after been emitted by the source is absorved by an H atom
+and re-emiited in a time scale of $\sim 10^{-9}$ s.
+For this reason this process is commonly refered as
+a scattering process. The total number of scatterings
+is denoted as $N_{scatt}$ and it is proportional to
+$\tau^2$.
+
+
+
+\subsection{Resonant scattering}\label{sec:resonant}
+
+Hydrogen is the most abundant element in the Universe furthermore
+the Lyman$\alpha$ line is a very common line. However the transmission of this
+Lyman$\alpha$ photons through the Hydrogen clouds it's not trivial. There 
+are two main aspects that heavily influce the morphology of the line.\\
+
+Imagine that  there is one Hydrogen atom which emits 
+a \ly photon in the middle of a cloud of Hydrogen atoms which are in the
+ground state. The \ly photon will be abosrved and re-emitted from 
+the Hydrogen atoms. This process will end up in a random walk in the space,
+and the photon can escape the cloud at any point in the surface of it.\\
+
+{\bf{Figure}}
+
+In the previous situation all the Hydrogen atoms were in rest, if the atoms
+present proper motions there would be a doppler shift. If an atom have a velocity 
+$v$ an emit a \ly photon in the direction opposite to the movement the \ly photon 
+would be redshifted. But if it is emitted in the same direcion of movement the
+\ly photon would be blueshifted.    
+
+{\bf{Figure}}
+
+This two effects made ratiave trasnfer inside optically thick medium as a random 
+walk in space and frequancy. This is why Monte-Carlo methods can be
+applyed to this difussion process.
+ 
+\subsection{Escape fraction}
+
+Dust grains are mainly considered as metals in the ISM, these
+metals are formed in stars. At high redshifts where galaxies and 
+stars are young the most probable escenario in that supernovae 
+enrich the ISM with dust \citep{Kotak09}, in this way the observed 
+dust \citep{Coppin09}  at high redshift is explained. 
+
+The effect of dust in the \ly transfer inside the ISM is that 
+dust grains can absorb (destroy) or scatter \ly photons. The 
+probability of this events is given by the 'albedo' $A$ defined as:
+
+\begin{equation}
+A = \dfrac{\sigma_{scatt}}{\sigma_{dust}}
+\end{equation}
+
+Where $\sigma_{scatt}$ is the total cross section for scattering 
+and $\sigma_{dust}$ for absorption. $\sigma_{dust}$ can be derived from 
+dust properties see \citep{Laursen09}. 
+
+There are two approaches to the modelling of dust in the \ly RT process.
+When the dust distribution is taken as homogeneous in the HI region and 
+the \ly photons can be absorbed by the dust or scattered. Or in a clumpy
+medium of dust in which \ly photons are more likely to scatter with the 
+clumps rather than absorved \citep{Laursen13}. To quantify the effect of 
+dust the ratio
+of \ly photons observed (\ly alpha photons who manage to scape from the medium) 
+over the \ly photons emmited  define the {\bf{escape fraction}} $f_{esc}$. 
+
+It is worth pointing out that the analytical
+description of the \ly RT doesn't take into account the precense of
+dust. That is a motivation to includ dust in the numerical simulations.
+As is explained in more detail in \S \ref{sec:analytic}.  
+
+
+
+
+
 \section{\emph{Is the \ly emission line the most prominent line in the Universe?}}
 
-There were 25 years since the prediction of the \ly line to the first observation by \verb+\citep{Djorgovski and Thompson}+, 
+There were 25 years since the prediction of the \ly line to the first observation by \citep{DjorgovskiThompson92}, 
+This long absence of the \ly line is atributed to two main effects:
 
-1. Not so popular, why?, dust, gas kinematics
+\begin{itemize}
 
-2. what about high z?
+\item The resinant nature of the line which spread out the photons from the line center, diminuishing the line 
+intensity. \verb+citacion+
 
-3. Symmetry of the line---morphology
+\item The presence of dust, which can destroy \ly photons. Decreasing the escape fraction of these photons. +\verb+citacion++
 
-\section{\emph{Analytical Models}}
+\end{itemize}
+
+Alongside these processes when observing the population of LAEs across
+the history of the Universe  the population of LAEs increases 
+with the redshift. But at $z>6$ the  
+population start to decrease \citep{Schenker12}. Apparently 
+the reionization  is governing at that redshift and the medium 
+becomes opaque to \ly radiation.   
+
+
+\section{\emph{Analytical Models}}\label{sec:analytic}
 
 In the path of understanding the \ly line profile, ideal 
 situations have been studied in order to obatin analytical 
 models of the profiles. This models provide the theory that
 would let develope the modern codes enable to 
 This models are the foundations. In this section the most relevant 
-analytical models are explained in the chronological in whcih 
+analytical models are explained in the chronological in which 
 they have been developed. 
+
+The radiave transfer of \ly photons can be studied using the equation:
  
+\begin{equation}\label{eq:RT}
+n\cdot\nabla I(\nu, n)= - \alpha_{\nu} I(\nu, n) + j(\nu, n) + \int d\Omega' \int dn' I(\nu', n') R(\nu', \nu, n', n)
+\end{equation}
+
+Where $\nu$ is the frequency of the \ly photons, $I(\nu, n)$ is the intensity
+of the radiation, $R(\nu', \nu, n', n)$ is the redistribution function.
+
+Using the following assumptions:
+
+\begin{itemize}
+\item In an optically thick medium the dependece on the direcion {\bf{$n$}} can 
+be neglected.
+
+\item 
+\end{itemize}
+
+The mean density $J_{\nu}$ is defined as:
+
+\begin{equation}
+J_{\nu} = \dfrac{1}{4\pi}\int I_{\nu}d\Omega
+\end{equation}
+
+Eq\ref{eq:RT} can be expressed as: 
+
+\begin{equation}
+\dfrac{dJ(\nu)}{d\tau} = \dfrac{(\Delta \nu_D)^2}{2}\dfrac{\partial}{\partial \nu}\phi(\nu)\dfrac{\partial J(\nu)}{\partial \nu}
+\end{equation}
+
+Where $\phi(\nu)$ is a Voigt profile (Combolution of a Gaussian profile  and Lorentzian profile), ths profile allows to 
 
 \section{\emph{Simulated models \& techniques}}
 
@@ -180,6 +370,23 @@ Using Monte-Carlo codes multiple geometries and kinematics has been
 studied. The outflows of gas in the galaxy due to supernova explotions
 has been studied by X, the main result is outflows lead to a asymmetric
 profiles ...
+
+ Radiative transfer codes \citep{DijkstraKramer, Laursen09, Verhamme06, CLARA} 
+have been developed in order to understand the effect of the gas kinematics in 
+the \lya line, special attention have been devoted to the effects of clumpy 
+media \citep{Hansen06} and expanding/contracting shell/spherical geometries 
+started to be studied \citep{Ahn03,Verhamme06,Dijkstra06}. 
+Hydrodynamic simulations have studied the outcomming spectra of 
+LAEs in large scale simulations \cite{Forero12}. Recently Monte Carlo codes have 
+been used in hydrodynamic simulations to study in detail individual galaxies 
+\citep{Laursen09,Barnes11,Verhamme12,Yajima12}.
+
+Especial attention have been devoted to model the presence of outflows in the galaxy, 
+motivated by previous observational studies \verb+citaciones+. 
+Outflows are a consequence of the interstellar medium (ISM) being ejected 
+from the galaxy due to supernova explosions. Here different models have 
+attempt to simulate more realistic situations involving shell models and cavities \citep{Behrens2014}.
+
 
 \section{\emph{This Thesis}}
 
@@ -230,15 +437,39 @@ obsever and the surface have to be taken into account.
 
 \subsection{The importance of modelling the effect of gas bulk rotation}
 
-Modelling the effect of rotation would play a progress in the effort
-of modelling realistic galaxies. Quantifying the effect of roation 
-on the \ly line would lead to distinguish the kinematic state
-of the galaxy. Future projects  
+Modelling the effect of rotation in the morphology of the \ly line, push 
+further our understanding of the effect of the kinematics of the HI regions
+on the line. With the knowledge more models into account more realistic analysis 
+can be made in observed \ly spectra. Now a distinguish between an 
+outflow/inflow state from a rotatinal can be made.  
 
-Also an analytic solution 
+Deriving and analytic expression for rotation is also important for 
+the community, computing an analytic solution is more efficient than 
+making all the radiative trasnfer simualation. Radiative transfer codes 
+can be tested agins the analytic solution and observed spectra could 
+be easily fitted  with the model. 
 
 \subsection{Future work}
 
-Fitting \ly line to meassure the rotational velocities of galaxies.
+There are two main projects which are based on the results obtained in 
+this work. With the aim of testing our model with observations and
+improving the kinematic models of the gas by studying two joint effects
+such as outflows and rotation.  
 
-The effect of outflows and rotation...
+There are LAEs which are governed by rotational movements, also 
+have spherical shapes and the main \ly sources are in the center. 
+With this propertis such galaxies have the same properties 
+that we studied in this work.  
+Fitting \ly line profile in order  to meassure the rotational 
+velocities of such galaxies would be the direct application 
+and test of our model.
+
+Despite the fact that outflows have been broadly studied rotation should 
+also be present on this galaxies. The joint effect of the two above properties 
+should have a direct effect on the morphology of the \lya line. We are 
+ combining the effect of rotation followed by an outflow. For the rotation 
+part we are using our analytic solution and for the outflows we are using 
+the shell described in \citep{Verhamme06}.
+
+
+
