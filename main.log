@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.2)  10 APR 2015 15:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.2)  13 APR 2015 13:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -668,14 +668,22 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count132
 \LT@p@ftn=\toks31
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count133
+\float@exts=\toks32
+\float@box=\box35
+\@float@everytoks=\toks33
+\@floatcapt=\box36
+)
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip65
 \bibsep=\skip66
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count133
+\c@NAT@ctr=\count134
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 33.
+Package hyperref Info: Option `colorlinks' set `true' on input line 34.
  (./main.aux
 
 LaTeX Warning: Label `sec:intro' multiply defined.
@@ -695,23 +703,24 @@ LaTeX Warning: Label `fig:surface' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
@@ -723,20 +732,20 @@ Package caption Info: End \AtBeginDocument code.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count134
+\scratchcounter=\count135
 \scratchdimen=\dimen148
-\scratchbox=\box35
-\nofMPsegments=\count135
-\nofMParguments=\count136
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count137
+\scratchbox=\box37
+\nofMPsegments=\count136
+\nofMParguments=\count137
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count138
 \MPscratchDim=\dimen149
-\MPnumerator=\count138
-\makeMPintoPDFobject=\count139
-\everyMPtoPDFconversion=\toks33
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
+\everyMPtoPDFconversion=\toks35
 )
-\c@lstlisting=\count140
-\AtBeginShipoutBox=\box36
+\c@lstlisting=\count141
+\AtBeginShipoutBox=\box38
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
@@ -745,7 +754,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-Package hyperref Info: Link coloring ON on input line 36.
+Package hyperref Info: Link coloring ON on input line 37.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -753,11 +762,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count141
+\c@section@level=\count142
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -766,27 +775,27 @@ LaTeX Info: Redefining \nameref on input line 36.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 68.
+(hyperref)                removing `math shift' on input line 69.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 68.
+(hyperref)                removing `\alpha' on input line 69.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 68.
+(hyperref)                removing `math shift' on input line 69.
 
-<logoUniandes.png, id=176, 142.5325pt x 92.345pt>
+<logoUniandes.png, id=188, 142.5325pt x 92.345pt>
 File: logoUniandes.png Graphic file (type png)
  <use logoUniandes.png>
-Package pdftex.def Info: logoUniandes.png used on input line 82.
+Package pdftex.def Info: logoUniandes.png used on input line 83.
 (pdftex.def)             Requested size: 71.26607pt x 46.17238pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 86.
+LaTeX Font Info:    Try loading font information for U+msa on input line 87.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 86.
+LaTeX Font Info:    Try loading font information for U+msb on input line 87.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -794,11 +803,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logoUniandes.png>]
-------------------------------------------------------------------------------
- Abstract Page
-------------------------------------------------------------------------------
-[1]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logoUniandes.png>] [1]
 ------------------------------------------------------------------------------
  Acknowledgements
 ------------------------------------------------------------------------------
@@ -820,15 +825,22 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  List of Figures
 ------------------------------------------------------------------------------
 (./main.lof
-Overfull \hbox (14.32265pt too wide) in paragraph at lines 8--8
- [][] [][][]\OT1/cmr/m/n/10.95 Integrated flux dis-tri-bu-tion as a func-tion o
-f the view-ing an-gle as parametrized 
+Overfull \hbox (7.45482pt too wide) in paragraph at lines 2--2
+ [][] [][][]\OT1/cmr/m/n/10.95 Scattering scheme of a Ly$\OML/cmm/m/it/10.95 $
+ \OT1/cmr/m/n/10.95 pho-ton in a HI medium (The star is a Ly$\OML/cmm/m/it/10.9
+5 $ \OT1/cmr/m/n/10.95 source 
  []
 
 [5
 
 
-])
+]
+Overfull \hbox (14.32265pt too wide) in paragraph at lines 14--14
+ [][] [][][]\OT1/cmr/m/n/10.95 Integrated flux dis-tri-bu-tion as a func-tion o
+f the view-ing an-gle as parametrized 
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -861,56 +873,215 @@ Chapter 1.
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 54.
+(hyperref)                removing `math shift' on input line 92.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 54.
+(hyperref)                removing `\alpha' on input line 92.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 54.
+(hyperref)                removing `math shift' on input line 92.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 60.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--76
-
- []
+LaTeX Warning: Command \r invalid in math mode on input line 99.
 
 [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 113.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 113.
+ [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 91.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 91.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 91.
-
-[3]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 139.
+(hyperref)                removing `math shift' on input line 174.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 139.
+(hyperref)                removing `\alpha' on input line 174.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 139.
+(hyperref)                removing `math shift' on input line 174.
 
-[4] [5]) (./Chapters/Chapter2.tex [6]
+[4]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 224.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 224.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 224.
+
+
+Package caption Warning: \label without proper \caption on input line 247.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:rw' on page 5 undefined on input line 250.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--251
+
+ []
+
+<Pictures/../Figures/randomwalk.png, id=450, 488.82625pt x 328.22626pt>
+File: Pictures/../Figures/randomwalk.png Graphic file (type png)
+
+<use Pictures/../Figures/randomwalk.png>
+Package pdftex.def Info: Pictures/../Figures/randomwalk.png used on input line 
+254.
+(pdftex.def)             Requested size: 195.52702pt x 131.28816pt.
+ [5]
+
+LaTeX Warning: Reference `fig_xshift' on page 6 undefined on input line 262.
+
+<Pictures/../Figures/xshift.png, id=461, 555.07375pt x 457.71pt>
+File: Pictures/../Figures/xshift.png Graphic file (type png)
+
+<use Pictures/../Figures/xshift.png>
+Package pdftex.def Info: Pictures/../Figures/xshift.png used on input line 270.
+
+(pdftex.def)             Requested size: 222.02556pt x 183.08075pt.
+ [6 <./Pictures/../Figures/randomwalk.png> <./Pictures/../Figures/xshift.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 321.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 321.
+
+
+Package caption Warning: \label without proper \caption on input line 330.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:IGM' on page 7 undefined on input line 329.
+
+<Pictures/../Figures/ISM.png, id=474, 697.60625pt x 195.73125pt>
+File: Pictures/../Figures/ISM.png Graphic file (type png)
+
+<use Pictures/../Figures/ISM.png>
+Package pdftex.def Info: Pictures/../Figures/ISM.png used on input line 340.
+(pdftex.def)             Requested size: 418.56697pt x 117.43964pt.
+
+Overfull \hbox (1.0939pt too wide) in paragraph at lines 340--341
+ [] 
+ []
+
+[7]
+
+Package caption Warning: \label without proper \caption on input line 345.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:kulas' on page 8 undefined on input line 347.
+
+<Pictures/../Figures/kulas.png, id=485, 945.5325pt x 572.1375pt>
+File: Pictures/../Figures/kulas.png Graphic file (type png)
+
+<use Pictures/../Figures/kulas.png>
+Package pdftex.def Info: Pictures/../Figures/kulas.png used on input line 355.
+(pdftex.def)             Requested size: 378.2063pt x 228.85094pt.
+ [8 <./Pictures/../Figures/ISM.png> <./Pictures/../Figures/kulas.png>] [9]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 433.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 433.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 433.
+
+
+Package natbib Warning: Citation `eufeld90' on page 10 undefined on input line 
+437.
+
+
+Package caption Warning: \label without proper \caption on input line 451.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:slab' on page 10 undefined on input line 455.
+
+<Pictures/../Figures/slab.png, id=516, 905.3825pt x 311.1625pt>
+File: Pictures/../Figures/slab.png Graphic file (type png)
+
+<use Pictures/../Figures/slab.png>
+Package pdftex.def Info: Pictures/../Figures/slab.png used on input line 461.
+(pdftex.def)             Requested size: 362.14659pt x 124.46278pt.
+ [10]
+
+Package caption Warning: \label without proper \caption on input line 470.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:sphere' on page 11 undefined on input line 476.
+
+<Pictures/../Figures/Sphere.png, id=530, 419.5675pt x 397.485pt>
+File: Pictures/../Figures/Sphere.png Graphic file (type png)
+
+<use Pictures/../Figures/Sphere.png>
+Package pdftex.def Info: Pictures/../Figures/Sphere.png used on input line 480.
+
+(pdftex.def)             Requested size: 167.82402pt x 158.99118pt.
+ [11 <./Pictures/../Figures/slab.png> <./Pictures/../Figures/Sphere.png>] [12]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 560.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 560.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 560.
+
+
+Package caption Warning: \label without proper \caption on input line 575.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:out' on page 13 undefined on input line 578.
+
+<Pictures/../Figures/out.png, id=565, 433.62pt x 391.4625pt>
+File: Pictures/../Figures/out.png Graphic file (type png)
+
+<use Pictures/../Figures/out.png>
+Package pdftex.def Info: Pictures/../Figures/out.png used on input line 585.
+(pdftex.def)             Requested size: 173.44492pt x 156.58221pt.
+ [13] [14 <./Pictures/../Figures/out.png>]
+
+Package caption Warning: \label without proper \caption on input line 670.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:LARS' on page 15 undefined on input line 673.
+
+[15] <Pictures/../Figures/LARS02_fit.png, id=593, 433.62pt x 289.08pt>
+File: Pictures/../Figures/LARS02_fit.png Graphic file (type png)
+
+<use Pictures/../Figures/LARS02_fit.png>
+Package pdftex.def Info: Pictures/../Figures/LARS02_fit.png used on input line 
+680.
+(pdftex.def)             Requested size: 346.89647pt x 231.2643pt.
+) (./Chapters/Chapter2.tex [16 <./Pictures/../Figures/LARS02_fit.png>]
 Chapter 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -925,111 +1096,97 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
 ------------------------------------------------------------------------------
- 2 The effect of gas bulk rotation on the morpohlogy of the {{Ly$\alpha $\nobre
+ 2 The effect of gas bulk rotation on the morphology of the {{Ly$\alpha $\nobre
 akspace {}}}line
 ------------------------------------------------------------------------------
+[17
 
-! Package inputenc Error: Unicode char \u8:α not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 ...r of scatterings. This is because Lyman α
-                                                   scattering through a rota...
-
-? 
-[7
-
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 104.
-
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 104.
- [8] [9]
-<Pictures/../Figures/f1.pdf, id=472, 628.2534pt x 562.62381pt>
+] [18] [19] <Pictures/../Figures/f1.pdf, id=665, 628.2534pt x 562.62381pt>
 File: Pictures/../Figures/f1.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/f1.pdf>
 Package pdftex.def Info: Pictures/../Figures/f1.pdf used on input line 187.
 (pdftex.def)             Requested size: 166.98668pt x 149.54102pt.
 
-<Pictures/../Figures/f2.pdf, id=473, 1393.04535pt x 1157.60936pt>
+<Pictures/../Figures/f2.pdf, id=666, 1393.04535pt x 1157.60936pt>
 File: Pictures/../Figures/f2.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/f2.pdf>
 Package pdftex.def Info: Pictures/../Figures/f2.pdf used on input line 201.
 (pdftex.def)             Requested size: 396.59813pt x 329.56882pt.
 
-<Pictures/../Figures/f3.pdf, id=474, 1395.07454pt x 1157.60936pt>
+<Pictures/../Figures/f3.pdf, id=667, 1395.07454pt x 1157.60936pt>
 File: Pictures/../Figures/f3.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/f3.pdf>
 Package pdftex.def Info: Pictures/../Figures/f3.pdf used on input line 219.
 (pdftex.def)             Requested size: 396.59813pt x 329.0919pt.
 
-<Pictures/../Figures/f4.pdf, id=477, 1310.02927pt x 1147.54308pt>
+<Pictures/../Figures/f4.pdf, id=670, 1310.02927pt x 1147.54308pt>
 File: Pictures/../Figures/f4.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/f4.pdf>
 Package pdftex.def Info: Pictures/../Figures/f4.pdf used on input line 227.
 (pdftex.def)             Requested size: 396.59813pt x 347.39987pt.
 
-<Pictures/../Figures/f4-2.pdf, id=482, 1300.71321pt x 1159.69994pt>
+<Pictures/../Figures/f4-2.pdf, id=675, 1300.71321pt x 1159.69994pt>
 File: Pictures/../Figures/f4-2.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/f4-2.pdf>
 Package pdftex.def Info: Pictures/../Figures/f4-2.pdf used on input line 239.
 (pdftex.def)             Requested size: 396.59813pt x 353.59294pt.
- [10] [11 <./Pictures/../Figures/f1.pdf>]
-[12 <./Pictures/../Figures/f2.pdf>] [13 <./Pictures/../Figures/f3.pdf>]
-[14 <./Pictures/../Figures/f4.pdf>] [15 <./Pictures/../Figures/f4-2.pdf>]
-<Pictures/../Figures/f5.pdf, id=1409, 657.25237pt x 595.6472pt>
+ [20 <./Pictures/../Figures/f1.pdf>] [21 <./Pictures/../Figures/f2.pdf>] [22 <.
+/Pictures/../Figures/f3.pdf>] [23 <./Pictures/../Figures/f4.pdf>] [24 <./Pictur
+es/../Figures/f4-2.pdf>]
+<Pictures/../Figures/f5.pdf, id=1598, 657.25237pt x 595.6472pt>
 File: Pictures/../Figures/f5.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/f5.pdf>
 Package pdftex.def Info: Pictures/../Figures/f5.pdf used on input line 371.
 (pdftex.def)             Requested size: 166.98668pt x 151.32906pt.
- [16 <./Pictures/../Figures/f5.pdf>]
-<Pictures/../Figures/f6.pdf, id=1466, 1315.14151pt x 599.71844pt>
+ [25]
+<Pictures/../Figures/f6.pdf, id=1605, 1315.14151pt x 599.71844pt>
 File: Pictures/../Figures/f6.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/f6.pdf>
 Package pdftex.def Info: Pictures/../Figures/f6.pdf used on input line 421.
 (pdftex.def)             Requested size: 396.59813pt x 180.85031pt.
-
-<Pictures/../Figures/f7.pdf, id=1467, 1265.00719pt x 556.74092pt>
+ [26 <./Pictures/../Figures/f5.pdf>]
+<Pictures/../Figures/f7.pdf, id=1665, 1265.00719pt x 556.74092pt>
 File: Pictures/../Figures/f7.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/f7.pdf>
 Package pdftex.def Info: Pictures/../Figures/f7.pdf used on input line 432.
 (pdftex.def)             Requested size: 396.59813pt x 174.5418pt.
- [17 <./Pictures/../Figures/f6.pdf>]
-<Pictures/../Figures/f8.pdf, id=1536, 1314.20049pt x 586.85838pt>
+ [27 <./Pictures/../Figures/f6.pdf> <./Pictures/../Figures/f7.pdf
+
+pdfTeX warning: pdflatex (file ./Pictures/../Figures/f7.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>] <Pictures/../Figures/f8.pdf, id=1788, 1314.20049pt x 586.85838pt>
 File: Pictures/../Figures/f8.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/f8.pdf>
 Package pdftex.def Info: Pictures/../Figures/f8.pdf used on input line 482.
 (pdftex.def)             Requested size: 396.59813pt x 177.09761pt.
- [18 <./Pictures/../Figures/f7.pdf>] [19 <./Pictures/../Figures/f8.pdf>]
-<Pictures/../Figures/f12.pdf, id=1660, 618.90598pt x 572.6613pt>
+ [28 <./Pictures/../Figures/f8.pdf>] [29]
+<Pictures/../Figures/f12.pdf, id=1851, 618.90598pt x 572.6613pt>
 File: Pictures/../Figures/f12.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/f12.pdf>
 Package pdftex.def Info: Pictures/../Figures/f12.pdf used on input line 571.
 (pdftex.def)             Requested size: 187.8616pt x 173.82695pt.
 
-<Pictures/../Figures/f13.pdf, id=1661, 627.92404pt x 598.0452pt>
+<Pictures/../Figures/f13.pdf, id=1852, 627.92404pt x 598.0452pt>
 File: Pictures/../Figures/f13.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/f13.pdf>
 Package pdftex.def Info: Pictures/../Figures/f13.pdf used on input line 572.
 (pdftex.def)             Requested size: 187.8616pt x 178.92216pt.
- [20]
-<Pictures/../Figures/fig10a.pdf, id=1676, 686.565pt x 469.755pt>
+ [30 <./Pictures/../Figures/f12.pdf> <./Pictures/../Figures/f13.pdf
+
+pdfTeX warning: pdflatex (file ./Pictures/../Figures/f13.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>] <Pictures/../Figures/fig10a.pdf, id=2237, 686.565pt x 469.755pt>
 File: Pictures/../Figures/fig10a.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/fig10a.pdf>
@@ -1037,46 +1194,18 @@ Package pdftex.def Info: Pictures/../Figures/fig10a.pdf used on input line 654.
 
 (pdftex.def)             Requested size: 204.56409pt x 139.95992pt.
 
-<Pictures/../Figures/fig10b.pdf, id=1677, 686.565pt x 469.755pt>
+<Pictures/../Figures/fig10b.pdf, id=2238, 686.565pt x 469.755pt>
 File: Pictures/../Figures/fig10b.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/fig10b.pdf>
 Package pdftex.def Info: Pictures/../Figures/fig10b.pdf used on input line 655.
 
 (pdftex.def)             Requested size: 204.56409pt x 139.95992pt.
- [21 <./Pictures/../Figures/f12.pdf> <./Pictures/../Figures/f13.pdf
-
-pdfTeX warning: pdflatex (file ./Pictures/../Figures/f13.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
->]
-
-Package natbib Warning: Citation `2014arXiv1404.2958V' on page 22 undefined on 
-input line 673.
-
-
-Package natbib Warning: Citation `Dayal2012' on page 22 undefined on input line
- 714.
-
-[22] [23 <./Pictures/../Figures/fig10a.pdf> <./Pictures/../Figures/fig10b.pdf
+ [31] [32 <./Pictures/../Figures/fig10a.pdf> <./Pictures/../Figures/fig10b.pdf
 
 pdfTeX warning: pdflatex (file ./Pictures/../Figures/fig10b.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
->] [24]
-
-Package natbib Warning: Citation `2014arXiv1404.2958V' on page 25 undefined on 
-input line 783.
-
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 795.
-
-Package natbib Warning: Citation `IPython' on page 25 undefined on input line 7
-97.
-
-
-Package natbib Warning: Citation `matplotlib' on page 25 undefined on input lin
-e 797.
-
-[25]
+>] [33]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 802.
@@ -1089,7 +1218,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 802.
 
-<Pictures/../Figures/fig11a.pdf, id=2208, 845.1575pt x 597.23125pt>
+<Pictures/../Figures/fig11a.pdf, id=2394, 845.1575pt x 597.23125pt>
 File: Pictures/../Figures/fig11a.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/fig11a.pdf>
@@ -1097,15 +1226,16 @@ Package pdftex.def Info: Pictures/../Figures/fig11a.pdf used on input line 815.
 
 (pdftex.def)             Requested size: 227.62204pt x 160.8445pt.
 
-<Pictures/../Figures/fig11b.pdf, id=2209, 845.1575pt x 597.23125pt>
+<Pictures/../Figures/fig11b.pdf, id=2395, 845.1575pt x 597.23125pt>
 File: Pictures/../Figures/fig11b.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/fig11b.pdf>
 Package pdftex.def Info: Pictures/../Figures/fig11b.pdf used on input line 815.
 
 (pdftex.def)             Requested size: 227.62204pt x 160.8445pt.
- [26 <./Pictures/../Figures/fig11a.pdf> <./Pictures/../Figures/fig11b.pdf>]
-<Pictures/../Figures/fig12a.pdf, id=2277, 559.08875pt x 566.115pt>
+ [34] [35 <./Pictures/../Figures/fig11a.pdf> <./Pictures/../Figures/fig11b.pdf>
+]
+<Pictures/../Figures/fig12a.pdf, id=2472, 559.08875pt x 566.115pt>
 File: Pictures/../Figures/fig12a.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/fig12a.pdf>
@@ -1113,7 +1243,7 @@ Package pdftex.def Info: Pictures/../Figures/fig12a.pdf used on input line 888.
 
 (pdftex.def)             Requested size: 125.24318pt x 126.80888pt.
 
-<Pictures/../Figures/fig12b.pdf, id=2278, 559.08875pt x 553.06625pt>
+<Pictures/../Figures/fig12b.pdf, id=2473, 559.08875pt x 553.06625pt>
 File: Pictures/../Figures/fig12b.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/fig12b.pdf>
@@ -1121,15 +1251,19 @@ Package pdftex.def Info: Pictures/../Figures/fig12b.pdf used on input line 888.
 
 (pdftex.def)             Requested size: 125.24318pt x 123.88599pt.
 
-<Pictures/../Figures/fig12c.pdf, id=2279, 559.08875pt x 566.115pt>
+<Pictures/../Figures/fig12c.pdf, id=2474, 559.08875pt x 566.115pt>
 File: Pictures/../Figures/fig12c.pdf Graphic file (type pdf)
 
 <use Pictures/../Figures/fig12c.pdf>
 Package pdftex.def Info: Pictures/../Figures/fig12c.pdf used on input line 888.
 
 (pdftex.def)             Requested size: 125.24318pt x 126.80888pt.
-) [27] (./Appendices/AppendixA.tex [28 <./Pictures/../Figures/fig12a.pdf> <./Pi
-ctures/../Figures/fig12b.pdf
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(./Appendices/AppendixA.tex [36] [37 <./Pictures/../Figures/fig12a.pdf> <./Pict
+ures/../Figures/fig12b.pdf
 
 pdfTeX warning: pdflatex (file ./Pictures/../Figures/fig12b.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
@@ -1164,7 +1298,7 @@ File: Pictures/../Figures/fig11b.pdf Graphic file (type pdf)
 Package pdftex.def Info: Pictures/../Figures/fig11b.pdf used on input line 20.
 (pdftex.def)             Requested size: 227.62204pt x 160.8445pt.
 
-[29
+[38
 
 ]
 File: Pictures/../Figures/fig12a.pdf Graphic file (type pdf)
@@ -1180,95 +1314,349 @@ File: Pictures/../Figures/fig12c.pdf Graphic file (type pdf)
 <use Pictures/../Figures/fig12c.pdf>
 Package pdftex.def Info: Pictures/../Figures/fig12c.pdf used on input line 93.
 (pdftex.def)             Requested size: 125.24318pt x 126.80888pt.
-) [30] [31]
+) [39] [40]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
 (./main.bbl
 ! Undefined control sequence.
-<recently read> \lt 
-                    
-l.64 \newblock {Keck Spectroscopy of Faint 3 $\lt
-                                                 $ z $\lt$ 8 Lyman Break Gal...
+<recently read> \apj 
+                     
+l.11 \newblock \emph{\apj}
+                          , 147:\penalty0 868, March 1967.
+? 
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.18 \newblock \emph{\apj}
+                          , 135:\penalty0 195, January 1962.
+? 
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.24 \newblock \emph{\apj}
+                          , 174:\penalty0 439, June 1972.
+? 
+! Undefined control sequence.
+<recently read> \mnras 
+                       
+l.31 \newblock \emph{\mnras}
+                            , 162:\penalty0 43, 1973.
+? 
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.37 \newblock \emph{\apj}
+                          , 350:\penalty0 216--241, February 1990.
+? 
+! Undefined control sequence.
+<recently read> \nat 
+                     
+l.51 \newblock \emph{\nat}
+                          , 467:\penalty0 940--942, October 2010.
+? 
+! Undefined control sequence.
+<recently read> \apjl 
+                      
+l.60 \newblock \emph{\apjl}
+                           , 765:\penalty0 L2, March 2013.
+? 
+! Undefined control sequence.
+<recently read> \mnras 
+                       
+l.67 \newblock \emph{\mnras}
+                            , 424:\penalty0 1672--1693, August 2012.
+? 
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.75 \newblock \emph{\apj}
+                          , 704:\penalty0 1640--1656, October 2009.
+? 
+! Undefined control sequence.
+<recently read> \aap 
+                     
+l.83 \newblock \emph{\aap}
+                          , 460:\penalty0 397--413, December 2006.
+? 
+[41
+
+
+]
+! Undefined control sequence.
+<recently read> \mnras 
+                       
+l.92 \newblock \emph{\mnras}
+                            , 415:\penalty0 3666--3680, August 2011.
+? 
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.101 \newblock \emph{\apj}
+                           , 598:\penalty0 858--877, December 2003.
+? 
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.116 \newblock \emph{\apj}
+                           , 797:\penalty0 11, December 2014.
+? 
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.139 \newblock \emph{\apj}
+                           , 704:\penalty0 306--323, October 2009.
+? 
+! Undefined control sequence.
+<recently read> \mnras 
+                       
+l.157 \newblock \emph{\mnras}
+                             , 395:\penalty0 1905--1914, June 2009.
+? 
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.164 \newblock \emph{\apj}
+                           , 766:\penalty0 124, April 2013.
+? 
+! Undefined control sequence.
+l.171 \newblock {Keck Spectroscopy of Faint 3 {\lt
+                                                  } z {\lt} 8 Lyman Break Ga...
 
 ? 
 ! Undefined control sequence.
-<recently read> \lt 
+l.171 ...Keck Spectroscopy of Faint 3 {\lt} z {\lt
+                                                  } 8 Lyman Break Galaxies:
+? 
+! Undefined control sequence.
+l.173   Range 6 {\lt
+                    } z {\lt} 8}.
+? 
+! Undefined control sequence.
+l.173   Range 6 {\lt} z {\lt
+                            } 8}.
+? 
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.174 \newblock \emph{\apj}
+                           , 744:\penalty0 179, January 2012{\natexlab{a}}.
+? 
+[42]
+! Undefined control sequence.
+<recently read> \pasj 
+                      
+l.195 \newblock \emph{\pasj}
+                            , 7:\penalty0 81, 1955.
+? 
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.201 \newblock \emph{\apj}
+                           , 649:\penalty0 14--36, September 2006.
+? 
+! Undefined control sequence.
+<recently read> \aap 
+                     
+l.210 \newblock \emph{\aap}
+                           , 546:\penalty0 A111, October 2012.
+? 
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.218 \newblock \emph{\apj}
+                           , 754:\penalty0 118, August 2012.
+? 
+! Undefined control sequence.
+<recently read> \mnras 
+                       
+l.224 \newblock \emph{\mnras}
+                             , 340:\penalty0 863--869, April 2003.
+? 
+! Undefined control sequence.
+<recently read> \mnras 
+                       
+l.230 \newblock \emph{\mnras}
+                             , 367:\penalty0 979--1002, April 2006.
+? 
+! Undefined control sequence.
+<recently read> \aap 
+                     
+l.242 \newblock \emph{\aap}
+                           , 563:\penalty0 A77, March 2014.
+? 
+! Undefined control sequence.
+<recently read> \mnras 
+                       
+l.250 \newblock \emph{\mnras}
+                             , 419:\penalty0 952--958, January 2012.
+? 
+! Undefined control sequence.
+<recently read> \mnras 
+                       
+l.258 \newblock \emph{\mnras}
+                             , 416:\penalty0 1723--1738, September 2011.
+? 
+[43]
+! Undefined control sequence.
+<recently read> \apjl 
+                      
+l.266 \newblock \emph{\apjl}
+                            , 545:\penalty0 L85--L88, December 2000.
+? 
+
+Underfull \hbox (badness 2173) in paragraph at lines 272--283
+[]\OT1/cmr/m/n/10.95 E. Ga-wiser, H. Francke, K. Lai, K. Schaw-in-ski, C. Gron-
+wall, R. Cia-r-
+ []
+
+! Undefined control sequence.
+<recently read> \apjs 
+                      
+l.301 \newblock \emph{\apjs}
+                            , 176:\penalty0 301--330, June 2008.
+? 
+! Undefined control sequence.
+<recently read> \aj 
                     
-l.64 ...{Keck Spectroscopy of Faint 3 $\lt$ z $\lt
-                                                  $ 8 Lyman Break Galaxies: ...
+l.309 \newblock \emph{\aj}
+                          , 143:\penalty0 79, April 2012.
+? 
+! Undefined control sequence.
+l.316 \newblock {Keck Spectroscopy of Faint 3 {\lt
+                                                  } z {\lt} 8 Lyman Break Ga...
 
 ? 
 ! Undefined control sequence.
-<recently read> \lt 
-                    
-l.64 ...ine Sources in the Redshift  Range 6 {$\lt
-                                                  $} z {$\lt$} 8}.
+l.316 ...Keck Spectroscopy of Faint 3 {\lt} z {\lt
+                                                  } 8 Lyman Break Galaxies:
 ? 
 ! Undefined control sequence.
-<recently read> \lt 
-                    
-l.64 ...s in the Redshift  Range 6 {$\lt$} z {$\lt
-                                                  $} 8}.
+l.318   Range 6 {\lt
+                    } z {\lt} 8}.
 ? 
-[32
-
-
-] [33] [34])
+! Undefined control sequence.
+l.318   Range 6 {\lt} z {\lt
+                            } 8}.
+? 
+[44]
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.341 \newblock \emph{\apj}
+                           , 524:\penalty0 527--535, October 1999.
+? 
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.347 \newblock \emph{\apj}
+                           , 153:\penalty0 783, September 1968.
+? 
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.354 \newblock \emph{\apj}
+                           , 152:\penalty0 493, May 1968.
+? 
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.367 \newblock \emph{\apj}
+                           , 554:\penalty0 604--614, June 2001.
+? 
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.374 \newblock \emph{\apj}
+                           , 578:\penalty0 33--42, October 2002.
+? 
+! Undefined control sequence.
+<recently read> \mnras 
+                       
+l.381 \newblock \emph{\mnras}
+                             , 425:\penalty0 87--115, September 2012.
+? 
+! Undefined control sequence.
+<recently read> \mnras 
+                       
+l.389 \newblock \emph{\mnras}
+                             , 422:\penalty0 310--325, May 2012.
+? 
+! Undefined control sequence.
+<recently read> \aap 
+                     
+l.396 \newblock \emph{\aap}
+                           , 556:\penalty0 A5, August 2013.
+? 
+! Undefined control sequence.
+<recently read> \mnras 
+                       
+l.409 \newblock \emph{\mnras}
+                             , 421:\penalty0 2568--2579, April 2012.
+? 
+[45])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 335.
-[35]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 335.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 341.
+[46]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 341.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 335.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 335.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9BE6382793867CABD5CADAAC7CDAEA05;9236.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 341.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 341.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 8DCB222B29CD678A6E2791A944592966;10148
+(rerunfilecheck)             After:  3B63018AE3E4EB154C8CEE91BD17BCE9;10140.
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 335.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 341.
  ) 
 Here is how much of TeX's memory you used:
- 13481 strings out of 494985
- 189458 string characters out of 6180357
- 273854 words of memory out of 5000000
- 16312 multiletter control sequences out of 15000+600000
- 27041 words of font info for 101 fonts, out of 8000000 for 9000
+ 13697 strings out of 494985
+ 193102 string characters out of 6180357
+ 281197 words of memory out of 5000000
+ 16465 multiletter control sequences out of 15000+600000
+ 26427 words of font info for 99 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 49i,14n,45p,805b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (44 pages, 1521121 bytes).
+ 49i,14n,45p,805b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (55 pages, 1872588 bytes).
 PDF statistics:
- 2654 PDF objects out of 2984 (max. 8388607)
- 1116 compressed objects within 12 object streams
- 161 named destinations out of 1000 (max. 500000)
- 440 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2862 PDF objects out of 2984 (max. 8388607)
+ 1302 compressed objects within 14 object streams
+ 213 named destinations out of 1000 (max. 500000)
+ 504 words of extra memory for PDF output out of 10000 (max. 10000000)
 
