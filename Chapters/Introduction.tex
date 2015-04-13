@@ -231,7 +231,14 @@ ground state. The \ly photon will be abosrved and re-emitted from
 the Hydrogen atoms. This process will end up in a random walk in the space,
 and the photon can escape the cloud at any point in the surface of it.\\
 
-{\bf{Figure}}
+\begin{figure}[H]\label{fig:rw}
+\begin{center}
+\includegraphics[scale=0.4]{../Figures/randomwalk.png}
+\end{center}\caption{Scattering scheme of a \ly photon in a HI medium
+(The star is a \ly source and the solid line represents the path that
+the \ly photon follow before scaping the cloud).}
+\end{figure}
+
 
 In the previous situation all the Hydrogen atoms were in rest, if the atoms
 present proper motions there would be a doppler shift. If an atom have a velocity 
@@ -239,7 +246,14 @@ $v$ an emit a \ly photon in the direction opposite to the movement the \ly photo
 would be redshifted. But if it is emitted in the same direcion of movement the
 \ly photon would be blueshifted.    
 
-{\bf{Figure}}
+\begin{figure}[H]\label{fig:xshift}
+\begin{center}
+\includegraphics[scale=0.4]{../Figures/xshift.png}
+\end{center}\caption{Scheme of the frequency shift. Left: Rest frame, Because 
+of the velocity $u$ of the atom absorb a blue-shifted \ly photon, and emmit 
+a red-shifted \ly photon. Right HI atom rest frame when all photons have the \ly frequency. (Image credit: Interpereting Lyman $\alpha$ radiation from young, dusty galaxies. By: Peter Laursen, 2010.).}
+\end{figure}
+
 
 This two effects made ratiave trasnfer inside optically thick medium as a random 
 walk in space and frequancy. This is why Monte-Carlo methods can be
@@ -283,33 +297,61 @@ As is explained in more detail in \S \ref{sec:analytic}.
 
 
 
-\section{\emph{Is the \ly emission line the most prominent line in the Universe?}}
+\section{\emph{ Attenuation of the \ly emission line}}
 
-There were 25 years since the prediction of the \ly line to the first observation by \citep{DjorgovskiThompson92}, 
-This long absence of the \ly line is atributed to two main effects:
+Despite the fact that the \ly line is the strongest emission line in 
+the UV, there were 25 years since the prediction of the \ly line to 
+the first observation by \citep{DjorgovskiThompson92}. 
+This long absence of the \ly line is what makes this and excited and 
+challenging field.
 
-\begin{itemize}
+Figure\ref{fig:IGM} shows the outcomming spectra from a galaxy 
+at $z \sim 3.5$, the line is double paked as expected from 
+the radiative transfer process in the galaxy. After the encounter
+with the inter galactic medium (IGM) de blue peak is diminished.
+This is beacuse of the expansion of the Universe the blue peak 
+is shifted to the \ly frequecy and the HI in the IGM would absorb
+part of this radiation. As a result the observed spectra (right figure)
+is asymmetric.   
 
-\item The resinant nature of the line which spread out the photons from the line center, diminuishing the line 
-intensity. \verb+citacion+
+\begin{figure}[H]\label{fig:IGM}
+\begin{center}
+\includegraphics[scale=0.6]{../Figures/ISM.png}
+\end{center}\caption{The IGM effect on the \ly line}
+\end{figure}
 
-\item The presence of dust, which can destroy \ly photons. Decreasing the escape fraction of these photons. +\verb+citacion++
 
-\end{itemize}
+The gas kinematics in the galaxy also plays a mayor role in shaping
+the morphology of the line, due to the resonant nature of the line. 
+Figure\ref{fig:kulas} show the \ly line
+profile for different galaxies at $z \sim 2 - 3$, due to the different
+kinematics of those galaxies all the spectra reveals asymmtric profiles 
+and some of them are multi-peaked.    
+
+
+\begin{figure}[H]\label{fig:kulas}
+\begin{center}
+\includegraphics[scale=0.4]{../Figures/kulas.png}
+\end{center}\caption{Asymmetry and multipeaked \ly line profiles. (Image credit: The kinematics of multiple-peaked \ly emission in star-forming galaxies at $z\sim 2$ - 3. Kulas, K. et al 2011) }
+\end{figure}
+
+The presence of dust, which can destroy \ly photons. Decreasing the escape fraction of these photons. +\verb+citacion++
 
 Alongside these processes when observing the population of LAEs across
 the history of the Universe  the population of LAEs increases 
-with the redshift. But at $z>6$ the  
-population start to decrease \citep{Schenker12}. Apparently 
-the reionization  is governing at that redshift and the medium 
+with the redshift. But at reshift $z>6$ the  
+population abundance of LAEs decrease \citep{Schenker12}. Apparently 
+the reionization  is governing at that redshift and the IGM medium 
 becomes opaque to \ly radiation.   
 
+All this effects makes the lyman alpha line a  
 
 \section{\emph{Analytical Models}}\label{sec:analytic}
 
-In the path of understanding the \ly line profile, ideal 
-situations have been studied in order to obatin analytical 
-models of the profiles. This models provide the theory that
+Understanding the \ly line profile requieres a theory knowledge
+about the physics processes involving the radiatie transfer. Symplified 
+situations have been studied in order to obtain an analytical 
+ profile. This models provide the theory that
 would let develope the modern codes enable to 
 This models are the foundations. In this section the most relevant 
 analytical models are explained in the chronological in which 
@@ -335,21 +377,71 @@ be neglected.
 
 The mean density $J_{\nu}$ is defined as:
 
-\begin{equation}
+\begin{equation}\label{eq:J}
 J_{\nu} = \dfrac{1}{4\pi}\int I_{\nu}d\Omega
 \end{equation}
 
-Eq\ref{eq:RT} can be expressed as: 
+Using the above assumptions and Eq.\ref{eq:J} Eq\ref{eq:RT} can be expressed as: 
 
-\begin{equation}
+\begin{equation}\label{eq:RTeq}
 \dfrac{dJ(\nu)}{d\tau} = \dfrac{(\Delta \nu_D)^2}{2}\dfrac{\partial}{\partial \nu}\phi(\nu)\dfrac{\partial J(\nu)}{\partial \nu}
 \end{equation}
 
-Where $\phi(\nu)$ is a Voigt profile (Combolution of a Gaussian profile  and Lorentzian profile), ths profile allows to 
+Where $\phi(\nu)$ is a Voigt profile (Combolution of a Gaussian profile  and Lorentzian profile), this Voigt profiles respond to the resonant nature of the line.
+
+Different authors have solved Eq.\ref{eq:RT} in simplified situtations, 
+this solutions are discussed below:
+
+\subsection{Infinite Slab with \ly source at the center:}
+
+The first analyitical solution to the RT Eq.\ref{eq:RTeq}
+was first studied by \citep{Unno55, Osterbrock62, Adams72, Harrington73, Neufeld90}
+
+\begin{equation}
+J(\tau_0, x) = \dfrac{\sqrt{6}}{24}\dfrac{x^2}{\sqrt{\pi}a\tau cosh[\sqrt{\pi^3/54}(x^3-x_{in}3)/a\tau]}
+\end{equation}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.4]{../Figures/slab.png}
+\end{center}\caption{Analytic profile for a dustless infinite slab with central
+\ly souces}
+\end{figure}
+
+For a spherical gas dustless distribution with central \ly sources \citep{Dijkstra06} has shown that the emergent spectrum is described by the following expresion:
+
+
+\begin{equation}
+J(\tau_0, x) = \dfrac{\sqrt{\pi}}{4\sqrt{6}}\dfrac{x^2}{a\tau (1+cosh[\sqrt{2\pi^3/27}x^3/a\tau])}
+\end{equation}
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.4]{../Figures/Sphere.png}
+\end{center}\caption{Analytic profile for a dustless sphere with central \ly sources. (Image credit: CLARA's view on the escape fraction of \ly photons in high redshift galaxies. J.E Forero-Romero, et al 2011)}
+\end{figure}
+
+In this work Mark Dijkstra has shown also that an approximate analytical profile
+can be derived for a {\bf{rotating spherical distribution}} Eq.\ref{eq:spherero}
+with central sources and dustless. This would be the first time that an analytical
+ spectrum is derived for a non-static medium. 
+
+\begin{equation}\label{eq:spherero}
+J(x,b,\phi,i)=\frac{\sqrt{\pi}}{\sqrt{24}a\tau_0}\Bigg{(}\frac{(x-x_{\rm
+b})^2}{1+{\rm cosh}\Big{[}\sqrt{\frac{2\pi^3}{27}}\frac{|(x
+-x_{\rm b})^3|}{a\tau_0}\Big{]}}\Bigg{)}
+\end{equation}
+
+\begin{equation}
+J(x,i)=2\pi \int_0^Rdb \hs b \int_0^{2\pi}d\phi \hs
+S(b,\phi)J(x,b,\phi,i) \approx 2\pi \int_0^Rdb \hs b
+\int_0^{2\pi}d\phi \hs J(x,b,\phi,i)\\ \nonumber
+\end{equation}
 
 \section{\emph{Simulated models \& techniques}}
 
-In the Universe most of the galaxies have, this charactersitics
+In the Universe most of the galaxies have, this characterstics
 can not be implemented. There are two main paths in which the 
 simulations have done. The first approach is by implementing 
 the properties of galaxies in the codes, such as: The geometry
@@ -358,13 +450,11 @@ some other model a realistic galaxy in the sense of gas geometry
 and kinematics using hydrodynamics techniques. In this section 
 we briefly descript this two techniques. 
 
-\subsection{Monte-Carlo codes}
+\subsection{Monte-Carlo approach:}
 
 Monte-Caro techniques are used ...
 
-\subsection{Hydrodynamic codes} 
-
-\subsection{Models}
+\subsection{Numerical Models of \ly profiles:}
 
 Using Monte-Carlo codes multiple geometries and kinematics has been 
 studied. The outflows of gas in the galaxy due to supernova explotions

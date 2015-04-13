@@ -1,84 +1,22 @@
-\begin{thebibliography}{34}
+\begin{thebibliography}{49}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
-\providecommand{\doi}[1]{doi: #1}\else
-\providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
 \bibitem[{Partridge} and {Peebles}(1967)]{PartridgePeebles}
 R.~B. {Partridge} and P.~J.~E. {Peebles}.
 \newblock {Are Young Galaxies Visible?}
-\newblock  \emph{ApJ},147:\penalty0 868, March 1967.
+\newblock \emph{ApJ}, 147:\penalty0 868, March 1967.
 \newblock \doi{10.1086/149079}.
 
-\bibitem[{Rhoads} et~al.(2000){Rhoads}, {Malhotra}, {Dey}, {Stern}, {Spinrad},
-  and {Jannuzi}]{Rhoads00}
-J.~E. {Rhoads}, S.~{Malhotra}, A.~{Dey}, D.~{Stern}, H.~{Spinrad}, and B.~T.
-  {Jannuzi}.
-\newblock {First Results from the Large-Area Lyman Alpha Survey}.
-\newblock \emph{ApJ},545:\penalty0 L85--L88, December 2000.
-\newblock \doi{10.1086/317874}.
-
-\bibitem[{Gawiser} et~al.(2007){Gawiser}, {Francke}, {Lai}, {Schawinski},
-  {Gronwall}, {Ciardullo}, {Quadri}, {Orsi}, {Barrientos}, {Blanc}, {Fazio},
-  and {Feldmeier}]{Gawiser2007}
-E.~{Gawiser}, H.~{Francke}, K.~{Lai}, K.~{Schawinski}, C.~{Gronwall},
-  R.~{Ciardullo}, R.~{Quadri}, A.~{Orsi}, L.~F. {Barrientos}, G.~A. {Blanc},
-  G.~{Fazio}, and J.~J. {Feldmeier}.
-\newblock {Ly{$\alpha$}-Emitting Galaxies at z = 3.1: L* Progenitors
-  Experiencing Rapid Star Formation}.
-\newblock \emph{ApJ}, 671:\penalty0 278--284, December 2007.
-\newblock \doi{10.1086/522955}.
-
-\bibitem[{Koehler} et~al.(2007){Koehler}, {Schuecker}, and
-  {Gebhardt}]{Koehler2007}
-R.~S. {Koehler}, P.~{Schuecker}, and K.~{Gebhardt}.
-\newblock {Probing dark energy with baryonic acoustic oscillations at high
-  redshifts}.
-\newblock \emph{aap}, 462:\penalty0 7--20, January 2007.
-\newblock \doi{10.1051/0004-6361:20065649}.
-
-\bibitem[{Ouchi} et~al.(2008){Ouchi}, {Shimasaku}, {Akiyama}, {Simpson},
-  {Saito}, {Ueda}, {Furusawa}, {Sekiguchi}, {Yamada}, {Kodama}, {Kashikawa},
-  {Okamura}, {Iye}, {Takata}, {Yoshida}, and {Yoshida}]{Ouchi08}
-M.~{Ouchi}, K.~{Shimasaku}, M.~{Akiyama}, C.~{Simpson}, T.~{Saito}, Y.~{Ueda},
-  H.~{Furusawa}, K.~{Sekiguchi}, T.~{Yamada}, T.~{Kodama}, N.~{Kashikawa},
-  S.~{Okamura}, M.~{Iye}, T.~{Takata}, M.~{Yoshida}, and M.~{Yoshida}.
-\newblock {The Subaru/XMM-Newton Deep Survey (SXDS). IV. Evolution of
-  Ly{$\alpha$} Emitters from z=3.1 to 5.7 in the 1 deg$^{2}$ Field: Luminosity
-  Functions and AGN}.
-\newblock \emph{ApJs}, 176:\penalty0 301--330, June 2008.
-\newblock \doi{10.1086/527673}.
-
-\bibitem[{Yamada} et~al.(2012){Yamada}, {Nakamura}, {Matsuda}, {Hayashino},
-  {Yamauchi}, {Morimoto}, {Kousai}, and {Umemura}]{Yamada2012}
-T.~{Yamada}, Y.~{Nakamura}, Y.~{Matsuda}, T.~{Hayashino}, R.~{Yamauchi},
-  N.~{Morimoto}, K.~{Kousai}, and M.~{Umemura}.
-\newblock {Panoramic Survey of Ly{$\alpha$} Emitters at z = 3.1}.
-\newblock \emph{Aj}, 143:\penalty0 79, April 2012.
-\newblock \doi{10.1088/0004-6256/143/4/79}.
-
-\bibitem[{Schenker} et~al.(2012){Schenker}, {Stark}, {Ellis}, {Robertson},
-  {Dunlop}, {McLure}, {Kneib}, and {Richard}]{Schenker2012}
-M.~A. {Schenker}, D.~P. {Stark}, R.~S. {Ellis}, B.~E. {Robertson}, J.~S. {Dunlop}, R.~J. {McLure}, J.-P. {Kneib}, and J.~{Richard}.
-\newblock {Keck Spectroscopy of Faint 3 $\lt$ z $\lt$ 8 Lyman Break Galaxies:  Evidence for a Declining Fraction of Emission Line Sources in the Redshift  Range 6 {$\lt$} z {$\lt$} 8}.
-\newblock \emph{ApJ}, 744:\penalty0 179, January 2012.
-\newblock \doi{10.1088/0004-637X/744/2/179}.
-
-\bibitem[Finkelstein et~al.(2013)Finkelstein, Papovich, Dickinson, Song, Tilvi,
-  Koekemoer, Finkelstein, Mobasher, Ferguson, Giavalisco, Reddy, Ashby, Dekel,
-  Fazio, Fontana, Grogin, Huang, Kocevski, Rafelski, Weiner, and
-  Willner]{Finkelstein2013}
-S.~L. Finkelstein, C.~Papovich, M.~Dickinson, M.~Song, V.~Tilvi, a.~M.
-  Koekemoer, K.~D. Finkelstein, B.~Mobasher, H.~C. Ferguson, M.~Giavalisco,
-  N.~Reddy, M.~L.~N. Ashby, a.~Dekel, G.~G. Fazio, a.~Fontana, N.~a. Grogin,
-  J.-S. Huang, D.~Kocevski, M.~Rafelski, B.~J. Weiner, and S.~P. Willner.
-\newblock {A galaxy rapidly forming stars 700 million years after the Big Bang
-  at redshift 7.51}.
-\newblock \emph{Nature}, 502\penalty0 (7472):\penalty0 524--527, October 2013.
-\newblock ISSN 0028-0836.
-\newblock \doi{10.1038/nature12657}.
-\newblock URL \url{http://www.nature.com/doifinder/10.1038/nature12657}.
+\bibitem[{Osterbrock}(1962)]{Osterbrock62}
+D.~E. {Osterbrock}.
+\newblock {The Escape of Resonance-Line Radiation from an Optically Thick
+  Nebula.}
+\newblock \emph{ApJ}, 135:\penalty0 195, January 1962.
+\newblock \doi{10.1086/147258}.
 
 \bibitem[{Adams}(1972)]{Adams72}
 T.~F. {Adams}.
@@ -99,12 +37,270 @@ D.~A. {Neufeld}.
 \newblock \emph{ApJ}, 350:\penalty0 216--241, February 1990.
 \newblock \doi{10.1086/168375}.
 
+\bibitem[{Djorgovski} and {Thompson}(1992)]{DjorgovskiThomson92}
+S.~{Djorgovski} and D.~J. {Thompson}.
+\newblock {Searches for Primeval Galaxies}.
+\newblock In B.~{Barbuy} and A.~{Renzini}, editors, \emph{The Stellar
+  Populations of Galaxies}, volume 149 of \emph{IAU Symposium}, page 337, 1992.
+
+\bibitem[{Lehnert} et~al.(2010){Lehnert}, {Nesvadba}, {Cuby}, {Swinbank},
+  {Morris}, {Cl{\'e}ment}, {Evans}, {Bremer}, and {Basa}]{Lenhert2010}
+M.~D. {Lehnert}, N.~P.~H. {Nesvadba}, J.-G. {Cuby}, A.~M. {Swinbank},
+  S.~{Morris}, B.~{Cl{\'e}ment}, C.~J. {Evans}, M.~N. {Bremer}, and S.~{Basa}.
+\newblock {Spectroscopic confirmation of a galaxy at redshift z = 8.6}.
+\newblock \emph{NAT}, 467:\penalty0 940--942, October 2010.
+\newblock \doi{10.1038/nature09462}.
+
+\bibitem[{Mas-Hesse} et~al.(2003){Mas-Hesse}, {Kunth}, {Tenorio-Tagle},
+  {Leitherer}, {Terlevich}, and {Terlevich}]{Mas-Hesse09}
+J.~M. {Mas-Hesse}, D.~{Kunth}, G.~{Tenorio-Tagle}, C.~{Leitherer}, R.~J.
+  {Terlevich}, and E.~{Terlevich}.
+\newblock {Ly{$\alpha$} Emission in Starbursts: Implications for Galaxies at
+  High Redshift}.
+\newblock \emph{ApJ}, 598:\penalty0 858--877, December 2003.
+\newblock \doi{10.1086/379116}.
+
+\bibitem[{{\"O}stlin} et~al.(2014){{\"O}stlin}, {Hayes}, {Duval}, {Sandberg},
+  {Rivera-Thorsen}, {Marquart}, {Orlitov{\'a}}, {Adamo}, {Melinder}, {Guaita},
+  {Atek}, {Cannon}, {Gruyters}, {Herenz}, {Kunth}, {Laursen}, {Mas-Hesse},
+  {Micheva}, {Ot{\'{\i}}-Floranes}, {Pardy}, {Roth}, {Schaerer}, and
+  {Verhamme}]{LARS}
+G.~{{\"O}stlin}, M.~{Hayes}, F.~{Duval}, A.~{Sandberg}, T.~{Rivera-Thorsen},
+  T.~{Marquart}, I.~{Orlitov{\'a}}, A.~{Adamo}, J.~{Melinder}, L.~{Guaita},
+  H.~{Atek}, J.~M. {Cannon}, P.~{Gruyters}, E.~C. {Herenz}, D.~{Kunth},
+  P.~{Laursen}, J.~M. {Mas-Hesse}, G.~{Micheva}, H.~{Ot{\'{\i}}-Floranes},
+  S.~A. {Pardy}, M.~M. {Roth}, D.~{Schaerer}, and A.~{Verhamme}.
+\newblock {The Ly{$\alpha$} Reference Sample. I. Survey Outline and First
+  Results for Markarian 259}.
+\newblock \emph{ApJ}, 797:\penalty0 11, December 2014.
+\newblock \doi{10.1088/0004-637X/797/1/11}.
+
+\bibitem[{Laursen}(2010)]{LaursenPhD}
+P.~{Laursen}.
+\newblock {Lyman $\{$$\backslash$alpha$\}$ radiative transfer in the
+  high-redshift, dusty Universe}.
+\newblock \emph{ArXiv e-prints}, December 2010.
+
+\bibitem[{Dijkstra}(2014)]{review}
+M.~{Dijkstra}.
+\newblock {Lyman Alpha Emitting Galaxies as a Probe of Reionization}.
+\newblock \emph{ArXiv e-prints, arXiv:1406.7292}, June 2014.
+
+\bibitem[{Kotak} et~al.(2009){Kotak}, {Meikle}, {Farrah}, {Gerardy}, {Foley},
+  {Van Dyk}, {Fransson}, {Lundqvist}, {Sollerman}, {Fesen}, {Filippenko},
+  {Mattila}, {Silverman}, {Andersen}, {H{\"o}flich}, {Pozzo}, and
+  {Wheeler}]{Kotak09}
+R.~{Kotak}, W.~P.~S. {Meikle}, D.~{Farrah}, C.~L. {Gerardy}, R.~J. {Foley},
+  S.~D. {Van Dyk}, C.~{Fransson}, P.~{Lundqvist}, J.~{Sollerman}, R.~{Fesen},
+  A.~V. {Filippenko}, S.~{Mattila}, J.~M. {Silverman}, A.~C. {Andersen}, P.~A.
+  {H{\"o}flich}, M.~{Pozzo}, and J.~C. {Wheeler}.
+\newblock {Dust and The Type II-Plateau Supernova 2004et}.
+\newblock \emph{ApJ}, 704:\penalty0 306--323, October 2009.
+\newblock \doi{10.1088/0004-637X/704/1/306}.
+
+\bibitem[{Coppin} et~al.(2009){Coppin}, {Smail}, {Alexander}, {Weiss},
+  {Walter}, {Swinbank}, {Greve}, {Kovacs}, {De Breuck}, {Dickinson}, {Ibar},
+  {Ivison}, {Reddy}, {Spinrad}, {Stern}, {Brandt}, {Chapman}, {Dannerbauer},
+  {van Dokkum}, {Dunlop}, {Frayer}, {Gawiser}, {Geach}, {Huynh}, {Knudsen},
+  {Koekemoer}, {Lehmer}, {Menten}, {Papovich}, {Rix}, {Schinnerer}, {Wardlow},
+  and {van der Werf}]{Coppin09}
+K.~E.~K. {Coppin}, I.~{Smail}, D.~M. {Alexander}, A.~{Weiss}, F.~{Walter},
+  A.~M. {Swinbank}, T.~R. {Greve}, A.~{Kovacs}, C.~{De Breuck}, M.~{Dickinson},
+  E.~{Ibar}, R.~J. {Ivison}, N.~{Reddy}, H.~{Spinrad}, D.~{Stern}, W.~N.
+  {Brandt}, S.~C. {Chapman}, H.~{Dannerbauer}, P.~{van Dokkum}, J.~S. {Dunlop},
+  D.~{Frayer}, E.~{Gawiser}, J.~E. {Geach}, M.~{Huynh}, K.~K. {Knudsen}, A.~M.
+  {Koekemoer}, B.~D. {Lehmer}, K.~M. {Menten}, C.~{Papovich}, H.-W. {Rix},
+  E.~{Schinnerer}, J.~L. {Wardlow}, and P.~P. {van der Werf}.
+\newblock {A submillimetre galaxy at z = 4.76 in the LABOCA survey of the
+  Extended Chandra Deep Field-South}.
+\newblock \emph{MNRAS}, 395:\penalty0 1905--1914, June 2009.
+\newblock \doi{10.1111/j.1365-2966.2009.14700.x}.
+
+\bibitem[{Laursen} et~al.(2009){Laursen}, {Sommer-Larsen}, and
+  {Andersen}]{Laursen09}
+P.~{Laursen}, J.~{Sommer-Larsen}, and A.~C. {Andersen}.
+\newblock {Ly{$\alpha$} Radiative Transfer with Dust: Escape Fractions from
+  Simulated High-Redshift Galaxies}.
+\newblock \emph{ApJ}, 704:\penalty0 1640--1656, October 2009.
+\newblock \doi{10.1088/0004-637X/704/2/1640}.
+
+\bibitem[{Laursen} et~al.(2013){Laursen}, {Duval}, and {{\"O}stlin}]{Laursen13}
+P.~{Laursen}, F.~{Duval}, and G.~{{\"O}stlin}.
+\newblock {On the (Non-)Enhancement of the Ly{$\alpha$} Equivalent Width by a
+  Multiphase Interstellar Medium}.
+\newblock \emph{ApJ}, 766:\penalty0 124, April 2013.
+\newblock \doi{10.1088/0004-637X/766/2/124}.
+
+\bibitem[{Schenker} et~al.(2012{\natexlab{a}}){Schenker}, {Stark}, {Ellis},
+  {Robertson}, {Dunlop}, {McLure}, {Kneib}, and {Richard}]{Schenker12}
+M.~A. {Schenker}, D.~P. {Stark}, R.~S. {Ellis}, B.~E. {Robertson}, J.~S.
+  {Dunlop}, R.~J. {McLure}, J.-P. {Kneib}, and J.~{Richard}.
+\newblock {Keck Spectroscopy of Faint 3 {\lt} z {\lt} 8 Lyman Break Galaxies:
+  Evidence for a Declining Fraction of Emission Line Sources in the Redshift
+  Range 6 {\lt} z {\lt} 8}.
+\newblock \emph{ApJ}, 744:\penalty0 179, January 2012{\natexlab{a}}.
+\newblock \doi{10.1088/0004-637X/744/2/179}.
+
+\bibitem[{Unno}(1955)]{Unno55}
+W.~{Unno}.
+\newblock {Theoretical Line Contour of the Lyman Alpha Radiation of Ionized
+  Helium and the Excitation of Bowen Lines in Planetary Nebulae}.
+\newblock \emph{PasJ}, 7:\penalty0 81, 1955.
+
+\bibitem[{Dijkstra} and {Kramer}(2012)]{DijkstraKramer}
+M.~{Dijkstra} and R.~{Kramer}.
+\newblock {Line transfer through clumpy, large-scale outflows: Ly {$\alpha$}
+  absorption and haloes around star-forming galaxies}.
+\newblock \emph{MNRAS}, 424:\penalty0 1672--1693, August 2012.
+\newblock \doi{10.1111/j.1365-2966.2012.21131.x}.
+
+\bibitem[{Verhamme} et~al.(2006){Verhamme}, {Schaerer}, and
+  {Maselli}]{Verhamme06}
+A.~{Verhamme}, D.~{Schaerer}, and A.~{Maselli}.
+\newblock {3D Ly{$\alpha$} radiation transfer. I. Understanding Ly{$\alpha$}
+  line profile morphologies}.
+\newblock \emph{AAP}, 460:\penalty0 397--413, December 2006.
+\newblock \doi{10.1051/0004-6361:20065554}.
+
+\bibitem[{Forero-Romero} et~al.(2011){Forero-Romero}, {Yepes}, {Gottl{\"o}ber},
+  {Knollmann}, {Cuesta}, and {Prada}]{CLARA}
+J.~E. {Forero-Romero}, G.~{Yepes}, S.~{Gottl{\"o}ber}, S.~R. {Knollmann}, A.~J.
+  {Cuesta}, and F.~{Prada}.
+\newblock {CLARA's view on the escape fraction of Lyman {$\alpha$} photons in
+  high-redshift galaxies}.
+\newblock \emph{MNRAS}, 415:\penalty0 3666--3680, August 2011.
+\newblock \doi{10.1111/j.1365-2966.2011.18983.x}.
+
+\bibitem[{Hansen} and {Oh}(2006)]{Hansen06}
+M.~{Hansen} and S.~P. {Oh}.
+\newblock {Lyman {$\alpha$} radiative transfer in a multiphase medium}.
+\newblock \emph{MNRAS}, 367:\penalty0 979--1002, April 2006.
+\newblock \doi{10.1111/j.1365-2966.2005.09870.x}.
+
+\bibitem[{Ahn} et~al.(2003){Ahn}, {Lee}, and {Lee}]{Ahn03}
+S.-H. {Ahn}, H.-W. {Lee}, and H.~M. {Lee}.
+\newblock {P Cygni type Ly{$\alpha$} from starburst galaxies}.
+\newblock \emph{MNRAS}, 340:\penalty0 863--869, April 2003.
+\newblock \doi{10.1046/j.1365-8711.2003.06353.x}.
+
 \bibitem[{Dijkstra} et~al.(2006){Dijkstra}, {Haiman}, and {Spaans}]{Dijkstra06}
 M.~{Dijkstra}, Z.~{Haiman}, and M.~{Spaans}.
 \newblock {Ly{$\alpha$} Radiation from Collapsing Protogalaxies. I.
   Characteristics of the Emergent Spectrum}.
-\newblock \emph{ApJ}, 649:\penalty0 14--36, September 2006.
+\newblock \emph{ApJ, 649:\penalty0 14--36, September 2006.
 \newblock \doi{10.1086/506243}.
+
+\bibitem[{Forero-Romero} et~al.(2012){Forero-Romero}, {Yepes}, {Gottl{\"o}ber},
+  and {Prada}]{Forero12}
+J.~E. {Forero-Romero}, G.~{Yepes}, S.~{Gottl{\"o}ber}, and F.~{Prada}.
+\newblock {Modelling the fraction of Lyman break galaxies with strong Lyman
+  {$\alpha$} emission at 5 {\le} z {\le} 7.}
+\newblock \emph{MNRAS}, 419:\penalty0 952--958, January 2012.
+\newblock \doi{10.1111/j.1365-2966.2011.19744.x}.
+
+\bibitem[{Barnes} et~al.(2011){Barnes}, {Haehnelt}, {Tescari}, and
+  {Viel}]{Barnes11}
+L.~A. {Barnes}, M.~G. {Haehnelt}, E.~{Tescari}, and M.~{Viel}.
+\newblock {Galactic winds and extended Ly{$\alpha$} emission from the host
+  galaxies of high column density quasi-stellar object absorption systems}.
+\newblock \emph{MNRAS}, 416:\penalty0 1723--1738, September 2011.
+\newblock \doi{10.1111/j.1365-2966.2011.18789.x}.
+
+\bibitem[{Verhamme} et~al.(2012){Verhamme}, {Dubois}, {Blaizot}, {Garel},
+  {Bacon}, {Devriendt}, {Guiderdoni}, and {Slyz}]{Verhamme12}
+A.~{Verhamme}, Y.~{Dubois}, J.~{Blaizot}, T.~{Garel}, R.~{Bacon},
+  J.~{Devriendt}, B.~{Guiderdoni}, and A.~{Slyz}.
+\newblock {Lyman-{$\alpha$} emission properties of simulated galaxies:
+  interstellar medium structure and inclination effects}.
+\newblock \emph{AAP, 546:\penalty0 A111, October 2012.
+\newblock \doi{10.1051/0004-6361/201218783}.
+
+\bibitem[{Yajima} et~al.(2012){Yajima}, {Li}, {Zhu}, {Abel}, {Gronwall}, and
+  {Ciardullo}]{Yajima12}
+H.~{Yajima}, Y.~{Li}, Q.~{Zhu}, T.~{Abel}, C.~{Gronwall}, and R.~{Ciardullo}.
+\newblock {Were Progenitors of Local L* Galaxies Ly{$\alpha$} Emitters at High
+  Redshift?}
+\newblock \emph{ApJ}, 754:\penalty0 118, August 2012.
+\newblock \doi{10.1088/0004-637X/754/2/118}.
+
+\bibitem[{Behrens} et~al.(2014){Behrens}, {Dijkstra}, and
+  {Niemeyer}]{Behrens2014}
+C.~{Behrens}, M.~{Dijkstra}, and J.~C. {Niemeyer}.
+\newblock {Beamed Ly{$\alpha$} emission through outflow-driven cavities}.
+\newblock \emph{AAP}, 563:\penalty0 A77, March 2014.
+\newblock \doi{10.1051/0004-6361/201322949}.
+
+\bibitem[{Rhoads} et~al.(2000){Rhoads}, {Malhotra}, {Dey}, {Stern}, {Spinrad},
+  and {Jannuzi}]{Rhoads00}
+J.~E. {Rhoads}, S.~{Malhotra}, A.~{Dey}, D.~{Stern}, H.~{Spinrad}, and B.~T.
+  {Jannuzi}.
+\newblock {First Results from the Large-Area Lyman Alpha Survey}.
+\newblock \emph{ApJL}, 545:\penalty0 L85--L88, December 2000.
+\newblock \doi{10.1086/317874}.
+
+\bibitem[{Gawiser} et~al.(2007){Gawiser}, {Francke}, {Lai}, {Schawinski},
+  {Gronwall}, {Ciardullo}, {Quadri}, {Orsi}, {Barrientos}, {Blanc}, {Fazio},
+  and {Feldmeier}]{Gawiser2007}
+E.~{Gawiser}, H.~{Francke}, K.~{Lai}, K.~{Schawinski}, C.~{Gronwall},
+  R.~{Ciardullo}, R.~{Quadri}, A.~{Orsi}, L.~F. {Barrientos}, G.~A. {Blanc},
+  G.~{Fazio}, and J.~J. {Feldmeier}.
+\newblock {Ly{$\alpha$}-Emitting Galaxies at z = 3.1: L* Progenitors
+  Experiencing Rapid Star Formation}.
+\newblock \emph{ApJ}, 671:\penalty0 278--284, December 2007.
+\newblock \doi{10.1086/522955}.
+
+\bibitem[{Koehler} et~al.(2007){Koehler}, {Schuecker}, and
+  {Gebhardt}]{Koehler2007}
+R.~S. {Koehler}, P.~{Schuecker}, and K.~{Gebhardt}.
+\newblock {Probing dark energy with baryonic acoustic oscillations at high
+  redshifts}.
+\newblock \emph{AAP}, 462:\penalty0 7--20, January 2007.
+\newblock \doi{10.1051/0004-6361:20065649}.
+
+\bibitem[{Ouchi} et~al.(2008){Ouchi}, {Shimasaku}, {Akiyama}, {Simpson},
+  {Saito}, {Ueda}, {Furusawa}, {Sekiguchi}, {Yamada}, {Kodama}, {Kashikawa},
+  {Okamura}, {Iye}, {Takata}, {Yoshida}, and {Yoshida}]{Ouchi08}
+M.~{Ouchi}, K.~{Shimasaku}, M.~{Akiyama}, C.~{Simpson}, T.~{Saito}, Y.~{Ueda},
+  H.~{Furusawa}, K.~{Sekiguchi}, T.~{Yamada}, T.~{Kodama}, N.~{Kashikawa},
+  S.~{Okamura}, M.~{Iye}, T.~{Takata}, M.~{Yoshida}, and M.~{Yoshida}.
+\newblock {The Subaru/XMM-Newton Deep Survey (SXDS). IV. Evolution of
+  Ly{$\alpha$} Emitters from z=3.1 to 5.7 in the 1 deg$^{2}$ Field: Luminosity
+  Functions and AGN}.
+\newblock \emph{ApJS}, 176:\penalty0 301--330, June 2008.
+\newblock \doi{10.1086/527673}.
+
+\bibitem[{Yamada} et~al.(2012){Yamada}, {Nakamura}, {Matsuda}, {Hayashino},
+  {Yamauchi}, {Morimoto}, {Kousai}, and {Umemura}]{Yamada2012}
+T.~{Yamada}, Y.~{Nakamura}, Y.~{Matsuda}, T.~{Hayashino}, R.~{Yamauchi},
+  N.~{Morimoto}, K.~{Kousai}, and M.~{Umemura}.
+\newblock {Panoramic Survey of Ly{$\alpha$} Emitters at z = 3.1}.
+\newblock \emph{AJ}, 143:\penalty0 79, April 2012.
+\newblock \doi{10.1088/0004-6256/143/4/79}.
+
+\bibitem[{Schenker} et~al.(2012{\natexlab{b}}){Schenker}, {Stark}, {Ellis},
+  {Robertson}, {Dunlop}, {McLure}, {Kneib}, and {Richard}]{Schenker2012}
+M.~A. {Schenker}, D.~P. {Stark}, R.~S. {Ellis}, B.~E. {Robertson}, J.~S.
+  {Dunlop}, R.~J. {McLure}, J.-P. {Kneib}, and J.~{Richard}.
+\newblock {Keck Spectroscopy of Faint 3 {\lt} z {\lt} 8 Lyman Break Galaxies:
+  Evidence for a Declining Fraction of Emission Line Sources in the Redshift
+  Range 6 {\lt} z {\lt} 8}.
+\newblock \emph{ApJ}, 744:\penalty0 179, January 2012{\natexlab{b}}.
+\newblock \doi{10.1088/0004-637X/744/2/179}.
+
+\bibitem[Finkelstein et~al.(2013)Finkelstein, Papovich, Dickinson, Song, Tilvi,
+  Koekemoer, Finkelstein, Mobasher, Ferguson, Giavalisco, Reddy, Ashby, Dekel,
+  Fazio, Fontana, Grogin, Huang, Kocevski, Rafelski, Weiner, and
+  Willner]{Finkelstein2013}
+S.~L. Finkelstein, C.~Papovich, M.~Dickinson, M.~Song, V.~Tilvi, a.~M.
+  Koekemoer, K.~D. Finkelstein, B.~Mobasher, H.~C. Ferguson, M.~Giavalisco,
+  N.~Reddy, M.~L.~N. Ashby, a.~Dekel, G.~G. Fazio, a.~Fontana, N.~a. Grogin,
+  J.-S. Huang, D.~Kocevski, M.~Rafelski, B.~J. Weiner, and S.~P. Willner.
+\newblock {A galaxy rapidly forming stars 700 million years after the Big Bang
+  at redshift 7.51}.
+\newblock \emph{Nature}, 502\penalty0 (7472):\penalty0 524--527, October 2013.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/nature12657}.
+\newblock URL \url{http://www.nature.com/doifinder/10.1038/nature12657}.
 
 \bibitem[{Loeb} and {Rybicki}(1999)]{LoebRybicki}
 A.~{Loeb} and G.~B. {Rybicki}.
@@ -146,31 +342,6 @@ Z.~{Zheng} and J.~{Miralda-Escud{\'e}}.
 \newblock \emph{ApJ}, 578:\penalty0 33--42, October 2002.
 \newblock \doi{10.1086/342400}.
 
-\bibitem[{Hansen} and {Oh}(2006)]{Hansen06}
-M.~{Hansen} and S.~P. {Oh}.
-\newblock {Lyman {$\alpha$} radiative transfer in a multiphase medium}.
-\newblock \emph{MNRAS}, 367:\penalty0 979--1002, April 2006.
-\newblock \doi{10.1111/j.1365-2966.2005.09870.x}.
-
-\bibitem[{Ahn} et~al.(2003){Ahn}, {Lee}, and {Lee}]{Ahn03}
-S.-H. {Ahn}, H.-W. {Lee}, and H.~M. {Lee}.
-\newblock {P Cygni type Ly{$\alpha$} from starburst galaxies}.
-\newblock \emph{MNRAS}, 340:\penalty0 863--869, April 2003.
-\newblock \doi{10.1046/j.1365-8711.2003.06353.x}.
-
-\bibitem[{Verhamme} et~al.(2006){Verhamme}, {Schaerer}, and
-  {Maselli}]{Verhamme06}
-A.~{Verhamme}, D.~{Schaerer}, and A.~{Maselli}.
-\newblock {3D Ly{$\alpha$} radiation transfer. I. Understanding Ly{$\alpha$}
-  line profile morphologies}.
-\newblock \emph{AAP}, 460:\penalty0 397--413, December 2006.
-\newblock \doi{10.1051/0004-6361:20065554}.
-
-\bibitem[{Dijkstra}(2014)]{review}
-M.~{Dijkstra}.
-\newblock {Lyman Alpha Emitting Galaxies as a Probe of Reionization}.
-\newblock \emph{ArXiv e-prints, arXiv:1406.7292}, June 2014.
-
 \bibitem[{Orsi} et~al.(2012){Orsi}, {Lacey}, and {Baugh}]{Orsi12}
 A.~{Orsi}, C.~G. {Lacey}, and C.~M. {Baugh}.
 \newblock {Can galactic outflows explain the properties of Ly {$\alpha$}
@@ -186,22 +357,6 @@ T.~{Garel}, J.~{Blaizot}, B.~{Guiderdoni}, D.~{Schaerer}, A.~{Verhamme}, and
 \newblock \emph{MNRAS}, 422:\penalty0 310--325, May 2012.
 \newblock \doi{10.1111/j.1365-2966.2012.20607.x}.
 
-\bibitem[{Forero-Romero} et~al.(2011){Forero-Romero}, {Yepes}, {Gottl{\"o}ber},
-  {Knollmann}, {Cuesta}, and {Prada}]{CLARA}
-J.~E. {Forero-Romero}, G.~{Yepes}, S.~{Gottl{\"o}ber}, S.~R. {Knollmann}, A.~J.
-  {Cuesta}, and F.~{Prada}.
-\newblock {CLARA's view on the escape fraction of Lyman {$\alpha$} photons in
-  high-redshift galaxies}.
-\newblock \emph{MNRAS}, 415:\penalty0 3666--3680, August 2011.
-\newblock \doi{10.1111/j.1365-2966.2011.18983.x}.
-
-\bibitem[{Forero-Romero} et~al.(2012){Forero-Romero}, {Yepes}, {Gottl{\"o}ber},
-  and {Prada}]{Forero12}
-J.~E. {Forero-Romero}, G.~{Yepes}, S.~{Gottl{\"o}ber}, and F.~{Prada}.
-\newblock {Modelling the fraction of Lyman break galaxies with strong Lyman $\alpha$ emission at 5 {$\le$} z {$\le$} 7.}
-\newblock \emph{MNRAS}, 419:\penalty0 952--958, January 2012.
-\newblock \doi{10.1111/j.1365-2966.2011.19744.x}.
-
 \bibitem[{Behrens} and {Niemeyer}(2013)]{Behrens13}
 C.~{Behrens} and J.~{Niemeyer}.
 \newblock {Effects of Lyman-alpha scattering in the IGM on clustering
@@ -209,54 +364,37 @@ C.~{Behrens} and J.~{Niemeyer}.
 \newblock \emph{AAP}, 556:\penalty0 A5, August 2013.
 \newblock \doi{10.1051/0004-6361/201321172}.
 
-\bibitem[{Laursen} et~al.(2009){Laursen}, {Sommer-Larsen}, and {Andersen}]{Laursen09}P.~{Laursen}, J.~{Sommer-Larsen}, and A.~C. {Andersen}.
-\newblock {Ly{$\alpha$} Radiative Transfer with Dust: Escape Fractions from
-  Simulated High-Redshift Galaxies}.
-\newblock \emph{ApJ}, 704:\penalty0 1640--1656, October 2009.
-\newblock \doi{10.1088/0004-637X/704/2/1640}.
-
-\bibitem[{Barnes} et~al.(2011){Barnes}, {Haehnelt}, {Tescari}, and
-  {Viel}]{Barnes11}
-L.~A. {Barnes}, M.~G. {Haehnelt}, E.~{Tescari}, and M.~{Viel}.
-\newblock {Galactic winds and extended Ly{$\alpha$} emission from the host
-  galaxies of high column density quasi-stellar object absorption systems}.
-\newblock \emph{MNRAS}, 416:\penalty0 1723--1738, September 2011.
-\newblock \doi{10.1111/j.1365-2966.2011.18789.x}.
-
-\bibitem[{Verhamme} et~al.(2012){Verhamme}, {Dubois}, {Blaizot}, {Garel},
-  {Bacon}, {Devriendt}, {Guiderdoni}, and {Slyz}]{Verhamme12}
-A.~{Verhamme}, Y.~{Dubois}, J.~{Blaizot}, T.~{Garel}, R.~{Bacon},
-  J.~{Devriendt}, B.~{Guiderdoni}, and A.~{Slyz}.
-\newblock {Lyman-{$\alpha$} emission properties of simulated galaxies:
-  interstellar medium structure and inclination effects}.
-\newblock \emph{AAP}, 546:\penalty0 A111, October 2012.
-\newblock \doi{10.1051/0004-6361/201218783}.
-
-\bibitem[{Yajima} et~al.(2012){Yajima}, {Li}, {Zhu}, {Abel}, {Gronwall}, and
-  {Ciardullo}]{Yajima12}
-H.~{Yajima}, Y.~{Li}, Q.~{Zhu}, T.~{Abel}, C.~{Gronwall}, and R.~{Ciardullo}.
-\newblock {Were Progenitors of Local L* Galaxies Ly{$\alpha$} Emitters at High
-  Redshift?}
-\newblock \emph{ApJ}, 754:\penalty0 118, August 2012.
-\newblock \doi{10.1088/0004-637X/754/2/118}.
-
-\bibitem[{Dijkstra} and {Kramer}(2012)]{DijkstraKramer}
-M.~{Dijkstra} and R.~{Kramer}.
-\newblock {Line transfer through clumpy, large-scale outflows: Ly {$\alpha$}
-  absorption and haloes around star-forming galaxies}.
-\newblock \emph{MNRAS}, 424:\penalty0 1672--1693, August 2012.
-\newblock \doi{10.1111/j.1365-2966.2012.21131.x}.
-
 \bibitem[{Zheng} and {Wallace}(2013)]{Zheng2013}
 Z.~{Zheng} and J.~{Wallace}.
 \newblock {Anisotropic Lyman-alpha Emission}.
 \newblock \emph{ArXiv e-prints}, August 2013.
 
-\bibitem[{Behrens} et~al.(2014){Behrens}, {Dijkstra}, and
-  {Niemeyer}]{Behrens2014}
-C.~{Behrens}, M.~{Dijkstra}, and J.~C. {Niemeyer}.
-\newblock {Beamed Ly{$\alpha$} emission through outflow-driven cavities}.
-\newblock \emph{AAP}, 563:\penalty0 A77, March 2014.
-\newblock \doi{10.1051/0004-6361/201322949}.
+\bibitem[{Verhamme} et~al.(2014){Verhamme}, {Orlitova}, {Schaerer}, and
+  {Hayes}]{2014arXiv1404.2958V}
+A.~{Verhamme}, I.~{Orlitova}, D.~{Schaerer}, and M.~{Hayes}.
+\newblock {On the use of Lyman-alpha to detect Lyman continuum leaking
+  galaxies}.
+\newblock \emph{ArXiv e-prints}, April 2014.
+
+\bibitem[{Dayal} and {Ferrara}(2012)]{Dayal2012}
+P.~{Dayal} and A.~{Ferrara}.
+\newblock {Ly{$\alpha$} emitters and Lyman-break galaxies: dichotomous twins}.
+\newblock \emph{MNRAS}, 421:\penalty0 2568--2579, April 2012.
+\newblock \doi{10.1111/j.1365-2966.2012.20486.x}.
+
+\bibitem[P\'erez and Granger(2007)]{IPython}
+Fernando P\'erez and Brian~E. Granger.
+\newblock Ipython: a system for interactive scientific computing.
+\newblock \emph{Computing in Science and Engineering}, 9\penalty0 (3):\penalty0
+  21--29, May 2007.
+\newblock ISSN 1521-9615.
+\newblock \doi{10.1109/MCSE.2007.53}.
+\newblock URL \url{http://ipython.org}.
+
+\bibitem[Hunter(2007)]{matplotlib}
+J.~D. Hunter.
+\newblock Matplotlib: A 2d graphics environment.
+\newblock \emph{Computing In Science \& Engineering}, 9\penalty0 (3):\penalty0
+  90--95, 2007.
 
 \end{thebibliography}
