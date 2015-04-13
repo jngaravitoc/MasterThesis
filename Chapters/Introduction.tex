@@ -76,7 +76,7 @@ models developed.
 
  
 
-\section{\emph{The Lyman $\alpha$ line in astronomy}}
+\section{\emph{The Lyman $\alpha$ line in astronomy}}\label{sec:lyuses}
 
 The Lyman $\alpha$ (Here after \ly) emission line is a consecuence of the 
 transition 
@@ -259,7 +259,7 @@ This two effects made ratiave trasnfer inside optically thick medium as a random
 walk in space and frequancy. This is why Monte-Carlo methods can be
 applyed to this difussion process.
  
-\subsection{Escape fraction}
+\subsection{Escape fraction}\label{sec:ef}
 
 Dust grains are mainly considered as metals in the ISM, these
 metals are formed in stars. At high redshifts where galaxies and 
@@ -335,16 +335,24 @@ and some of them are multi-peaked.
 \end{center}\caption{Asymmetry and multipeaked \ly line profiles. (Image credit: The kinematics of multiple-peaked \ly emission in star-forming galaxies at $z\sim 2$ - 3. Kulas, K. et al 2011) }
 \end{figure}
 
-The presence of dust, which can destroy \ly photons. Decreasing the escape fraction of these photons. +\verb+citacion++
+The presence of dust in galaxies also play an important role, dust as explained
+ in \S\ref{sec:ef} could either absorb or scatter \ly photons. As a 
+consecuence dust mainly diminuish the intensity of the \ly line of LAEs. 
 
-Alongside these processes when observing the population of LAEs across
-the history of the Universe  the population of LAEs increases 
+Alongside these processes when observing the abundance of LAEs across
+the history of the Universe the population of LAEs increases 
 with the redshift. But at reshift $z>6$ the  
-population abundance of LAEs decrease \citep{Schenker12}. Apparently 
-the reionization  is governing at that redshift and the IGM medium 
+abundance of LAEs decrease \citep{Schenker12}. Apparently 
+ reionization  is governing at that redshift and the IGM medium 
 becomes opaque to \ly radiation.   
 
-All this effects makes the lyman alpha line a  
+All this effects makes the \ly line a sensitive line and challenging
+to observe at $z>6$ see \citep{Sobral15}, but with valuable information
+of the ISM/IGM distribution and kinematics. All This makes de \ly
+line a very usefull line to explore the extragalactic Universe as
+discussed  in \S\ref{sec:lyuses}.
+
+  
 
 \section{\emph{Analytical Models}}\label{sec:analytic}
 
@@ -357,23 +365,20 @@ This models are the foundations. In this section the most relevant
 analytical models are explained in the chronological in which 
 they have been developed. 
 
-The radiave transfer of \ly photons can be studied using the equation:
+The radiave transfer of \ly photons has been studied by several authors
+see \citep{RybickiLightman79} for a complete treatment, the Intensity
+of \ly photons can be studied via:
  
 \begin{equation}\label{eq:RT}
 n\cdot\nabla I(\nu, n)= - \alpha_{\nu} I(\nu, n) + j(\nu, n) + \int d\Omega' \int dn' I(\nu', n') R(\nu', \nu, n', n)
 \end{equation}
 
-Where $\nu$ is the frequency of the \ly photons, $I(\nu, n)$ is the intensity
-of the radiation, $R(\nu', \nu, n', n)$ is the redistribution function.
-
-Using the following assumptions:
-
-\begin{itemize}
-\item In an optically thick medium the dependece on the direcion {\bf{$n$}} can 
-be neglected.
-
-\item 
-\end{itemize}
+Where $\nu$ is the frequency of the \ly photons. $n$ is the direction 
+of the \ly photon. $I(\nu, n)$ is the intensity
+of the radiation. $\Omega$ is the solid angle. $R(\nu', \nu, n', n)$ 
+is the redistribution function, basically this function which measures 
+the probability that a \ly photon with frequency $\nu'$ and direction $n'$
+after scatters have a frequency $\nu$ and direction $n$.
 
 The mean density $J_{\nu}$ is defined as:
 
@@ -381,51 +386,86 @@ The mean density $J_{\nu}$ is defined as:
 J_{\nu} = \dfrac{1}{4\pi}\int I_{\nu}d\Omega
 \end{equation}
 
-Using the above assumptions and Eq.\ref{eq:J} Eq\ref{eq:RT} can be expressed as: 
+
+Using Eq.\ref{eq:J} and following the above steps:
+
+\begin{itemize}
+\item In an optically thick medium the dependece on the direcion {\bf{$n$}} can 
+be neglected.
+\item Using a Taylor expansion in ($I(\nu', n')$) in the second term of the right in Eq.\ref{eq:RT} 
+\item Replacing the absorption coefficient in terms of the optical depth.
+\item $j(\nu, n)=0$ and $\simga_{dust}=0$
+\end{itemize}
+
+Eq.\ref{eq:RT} can be expressed as: 
 
 \begin{equation}\label{eq:RTeq}
 \dfrac{dJ(\nu)}{d\tau} = \dfrac{(\Delta \nu_D)^2}{2}\dfrac{\partial}{\partial \nu}\phi(\nu)\dfrac{\partial J(\nu)}{\partial \nu}
 \end{equation}
 
-Where $\phi(\nu)$ is a Voigt profile (Combolution of a Gaussian profile  and Lorentzian profile), this Voigt profiles respond to the resonant nature of the line.
-
-Different authors have solved Eq.\ref{eq:RT} in simplified situtations, 
-this solutions are discussed below:
+Where $\phi(\nu)$ is a Voigt profile (Combolution of a Gaussian profile  
+and Lorentzian profile), this Voigt profiles respond to the resonant nature 
+of the line. Eq.\ref{eq:RTeq} is a diffusion equation in space and frequancy
+for the \ly photons in HI clouds. Different authors have solved 
+Eq.\ref{eq:RT} in simplified situtations that we are going to discuss above. 
 
 \subsection{Infinite Slab with \ly source at the center:}
 
 The first analyitical solution to the RT Eq.\ref{eq:RTeq}
-was first studied by \citep{Unno55, Osterbrock62, Adams72, Harrington73, Neufeld90}
+was an effort in which different authors made a contributions \citep{Unno55, Osterbrock62, Adams72, Harrington73} and ended with the analytical expresion
+derived by \citep{eufeld90} based on the previous works. 
 
 \begin{equation}
 J(\tau_0, x) = \dfrac{\sqrt{6}}{24}\dfrac{x^2}{\sqrt{\pi}a\tau cosh[\sqrt{\pi^3/54}(x^3-x_{in}3)/a\tau]}
 \end{equation}
 
-\begin{figure}[H]
+Where $a$ is the Voigt parameter defined as $a=A/4\pi\Delta \nu_D$. \citep{Harrington73} also show that the maximum intensity of the line is at:
+
+\begin{equation}
+x_m = \pm1.066(a\tau)^{1/3}
+\end{equation}
+
+And the averge number of scatterings is:
+
+\begin{equation}
+N_{scatt} = 1.612\tau
+\end{equation}
+
+In Fig.\ref{fig:slab} the analyticial profile of the slab solution is shown, 
+the solid line is the simulated profile reproduced with \citep{CLARA} the code
+used in this work.
+
+\begin{figure}[H]\label{fig:slab}
 \begin{center}
 \includegraphics[scale=0.4]{../Figures/slab.png}
-\end{center}\caption{Analytic profile for a dustless infinite slab with central
-\ly souces}
+\end{center}\caption{(left) Analytic profile for a dustless infinite slab with central
+\ly souces. (Middle) Maximum peaks position. (Right) Average number of 
+scatterings $N_{scatt}$ in function of the optical depth $\tau$.(Image credit:  CLARA's view on the escape fraction of \ly photons in high redshift galaxies. J.E Forero-Romero, et al 2011)}
 \end{figure}
 
-For a spherical gas dustless distribution with central \ly sources \citep{Dijkstra06} has shown that the emergent spectrum is described by the following expresion:
+\subsection{Spherical solution}
 
+For a spherical gas dustless distribution with central \ly sources \citep{Dijkstra06} has shown that the emergent spectrum is described by the following expresion:
 
 \begin{equation}
 J(\tau_0, x) = \dfrac{\sqrt{\pi}}{4\sqrt{6}}\dfrac{x^2}{a\tau (1+cosh[\sqrt{2\pi^3/27}x^3/a\tau])}
 \end{equation}
 
+The analytical spectrum of the spherical solution 
+is shwon in Fig.\ref{fig:sphere} for different optical depths. 
 
-\begin{figure}[H]
+\begin{figure}[H]\label{fig:sphere}
 \begin{center}
 \includegraphics[scale=0.4]{../Figures/Sphere.png}
-\end{center}\caption{Analytic profile for a dustless sphere with central \ly sources. (Image credit: CLARA's view on the escape fraction of \ly photons in high redshift galaxies. J.E Forero-Romero, et al 2011)}
+\end{center}\caption{Analytic profile for a dustless sphere with central \ly sources.  (Image credit: CLARA's view on the escape fraction of \ly photons in high redshift galaxies. J.E Forero-Romero, et al 2011)}
 \end{figure}
+
+\subsection{Spherical rotating sphere}
 
 In this work Mark Dijkstra has shown also that an approximate analytical profile
 can be derived for a {\bf{rotating spherical distribution}} Eq.\ref{eq:spherero}
-with central sources and dustless. This would be the first time that an analytical
- spectrum is derived for a non-static medium. 
+with central sources and dustless. This would be the first time that an analytic
+al profile is derived for a non-static medium.  
 
 \begin{equation}\label{eq:spherero}
 J(x,b,\phi,i)=\frac{\sqrt{\pi}}{\sqrt{24}a\tau_0}\Bigg{(}\frac{(x-x_{\rm
@@ -441,42 +481,89 @@ S(b,\phi)J(x,b,\phi,i) \approx 2\pi \int_0^Rdb \hs b
 
 \section{\emph{Simulated models \& techniques}}
 
-In the Universe most of the galaxies have, this characterstics
-can not be implemented. There are two main paths in which the 
-simulations have done. The first approach is by implementing 
+In the Universe most of the galaxies have complicated
+geometries (Spirals, irregular) and kinematics that 
+can not be resolved analiticaly. There are two approaches
+to uderstant this complicated properties of galaxies, based
+on Monte-Carlo simulations.The first approach is by implementing 
 the properties of galaxies in the codes, such as: The geometry
-of the gas, the kinematics of the gas and the dust. Meanwhile 
-some other model a realistic galaxy in the sense of gas geometry
-and kinematics using hydrodynamics techniques. In this section 
-we briefly descript this two techniques. 
+of the gas, the kinematics of the gas and the dust. In this 
+approach every property is isolated simulated in order
+to compute the \ly profiles, escape fractions, averge number
+of scatterings, position of the maximum peaks among others. 
+
+Realistic galaxy properties in the sense of gas geometry
+and kinematics using hydrodynamics simulations. In this 
+approach the galaxy can be simulated isolated see \citep{Verhamme12}
+or galaxies in the cosmic web can also be studied see\citep{Yajima12}.
+The temperature, density and gas velocity fields are obtained from 
+the hydrodinamic simulations and then the Monte-Carlo code is 
+implemented in order to compute the profile properties.
 
 \subsection{Monte-Carlo approach:}
 
-Monte-Caro techniques are used ...
+Monte-Carlo (MC) simulations are broadly used in a varierty of 
+areas such as science, economy, traffic simulatios among 
+many more. MC methods are mostly based in the
+generation of random numbers that are the core of 
+random walks. This is why MC is used to study the
+\ly profile. Here we breafly describe how this method 
+work. The main thing is that every every \ly photon is simulated
+separately in the following scheme, for a detailed description 
+please see chapters $6-8$ in \citep{\LaursenPhD} .
+
+\begin{itemize}
+\item  The temperature (T) is very common to take $T=10^4K$, gas distribution ($\tau$) and kinematics ($V$) is implemented. 
+
+\item Initialize your \ly photon initial position and frequency $x_{in}$
+
+\item Generate a random displacement ($\tau_0$) of the photon in a random 
+direction {\bf{$\vec{n}$}}.
+
+\item  Derive the HI atom velocity components from the initial field, 
+and generate random components for the thermal movements.
+
+\item  Set the new direction of the \ly photon after scattering.
+
+\item If the \ly photon encounter a dust particle the albedo probability 
+would define if the atom is absorbed or scattered. In also common to take $A=1/2$
+
+\item Repeat from step 2 untill the photon reaches the HI surface at $\tau$.  
+
+\end{itemize}
+
+With this method the final frequency $x_{out}$, the average number of scatterin
+gs $N_{scatt}$ can be computed for every step in the random walk.
+
 
 \subsection{Numerical Models of \ly profiles:}
 
-Using Monte-Carlo codes multiple geometries and kinematics has been 
-studied. The outflows of gas in the galaxy due to supernova explotions
-has been studied by X, the main result is outflows lead to a asymmetric
-profiles ...
+Using the MC method explained above different RT  codes 
+\citep{DijkstraKramer, Laursen09, Verhamme06, CLARA}
+have been developed in order to understand the effect of the gas kinematics in
+the \lya line, expanding/contracting shell/spherical geometries
+has been broadly studied \citep{Ahn03,Verhamme06,Dijkstra06}.
+Realistic ISM/IGM medium has also been studied, the effect of a clumpy
+medium is discussed in \citep{Hansen06}. Anysotropic \ly emission 
+has been studied by \citep{Zheng2013}. And realistic exapanding mediums 
+in cavities has been recently studied by  \citep{Behrens2014} 
+Hydrodynamic simulations have studied the outcomming spectra of
+LAEs in large scale simulations \cite{Forero12}. 
+Recently Monte Carlo codes have been used in hydrodynamic 
+simulations to study in detail individual galaxies and galaxies 
+in the cosmic web.
+\citep{Laursen09,Barnes11,Verhamme12,Yajima12}
 
- Radiative transfer codes \citep{DijkstraKramer, Laursen09, Verhamme06, CLARA} 
-have been developed in order to understand the effect of the gas kinematics in 
-the \lya line, special attention have been devoted to the effects of clumpy 
-media \citep{Hansen06} and expanding/contracting shell/spherical geometries 
-started to be studied \citep{Ahn03,Verhamme06,Dijkstra06}. 
-Hydrodynamic simulations have studied the outcomming spectra of 
-LAEs in large scale simulations \cite{Forero12}. Recently Monte Carlo codes have 
-been used in hydrodynamic simulations to study in detail individual galaxies 
-\citep{Laursen09,Barnes11,Verhamme12,Yajima12}.
+Figure \ref{fig:out} shows the effect of outflow/inflow kinematics, 
+In the ouflow regime photons are blueshifted and the blue part of the line
+is stronger than the red part. In the inflow regime the opposite effect
+is carried out, the \ly phtons are redshifted. 
 
-Especial attention have been devoted to model the presence of outflows in the galaxy, 
-motivated by previous observational studies \verb+citaciones+. 
-Outflows are a consequence of the interstellar medium (ISM) being ejected 
-from the galaxy due to supernova explosions. Here different models have 
-attempt to simulate more realistic situations involving shell models and cavities \citep{Behrens2014}.
-
+\begin{figure}[H]\label{fig:out}
+\begin{center}
+\includegraphics[scale=0.4]{../Figures/out.png}
+\end{center}
+\end{figure}
 
 \section{\emph{This Thesis}}
 
@@ -486,6 +573,26 @@ of the \lya outcoming profile, to this aim we implement a solid body
 rotation model in the radiative transfer code \verb+CLARA+ \citep{CLARA}.
 All the codes used for the analysis of this work is reproducible
 and public available in \href{https://github.com/jngaravitoc/RotationLyAlpha}{github}.
+
+\subsection{The importance of modelling the effect of gas bulk rotation}
+
+Untill now the effect of rotation have never been studied, and this is 
+an intrinsic propertied of all galaxies. In this work we study for the 
+first time the effect of galaxy rotation the morphology of the \ly line.
+
+Modelling the effect of rotation in the morphology of the \ly line, push
+further our understanding of the effect of the kinematics of the HI regions
+on the line. With the knowledge more models into account more 
+realistic analysis can be made in observed \ly spectra. 
+Now a distinguish between the differents stages of the gas kinematics
+ outflow/inflow, anysotropy \ly emission, shell cavities and now
+ rotatinal can be made.
+
+Deriving and analytic expression for rotation is also important for
+the community, computing an analytic solution is more efficient than
+making all the radiative trasnfer simualation. Radiative transfer codes
+can be tested against the analytic solution and observed spectra could
+be easily fitted  with the model. 
 
 \subsection{Summary of the thesis}
 
@@ -525,20 +632,6 @@ a Doppler shift due to the difference velocity of an external
 obsever and the surface have to be taken into account.  
 
 
-\subsection{The importance of modelling the effect of gas bulk rotation}
-
-Modelling the effect of rotation in the morphology of the \ly line, push 
-further our understanding of the effect of the kinematics of the HI regions
-on the line. With the knowledge more models into account more realistic analysis 
-can be made in observed \ly spectra. Now a distinguish between an 
-outflow/inflow state from a rotatinal can be made.  
-
-Deriving and analytic expression for rotation is also important for 
-the community, computing an analytic solution is more efficient than 
-making all the radiative trasnfer simualation. Radiative transfer codes 
-can be tested agins the analytic solution and observed spectra could 
-be easily fitted  with the model. 
-
 \subsection{Future work}
 
 There are two main projects which are based on the results obtained in 
@@ -561,5 +654,9 @@ should have a direct effect on the morphology of the \lya line. We are
 part we are using our analytic solution and for the outflows we are using 
 the shell described in \citep{Verhamme06}.
 
-
+\begin{figure}[H]\label{fig:LARS}
+\begin{center}
+\includegraphics[scale=0.8]{../Figures/LARS02_fit.png}
+\end{center}
+\end{figure}
 
