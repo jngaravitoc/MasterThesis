@@ -254,7 +254,7 @@ Fig.\ref{fig:rw}.\\
 
 \begin{figure}
 \begin{center}
-\includegraphics[scale=0.4]{../Figures/randomwalk.png}
+\includegraphics[scale=0.4]{Figures/randomwalk.png}
 \end{center}\caption{Scattering scheme of a \ly photon in a HI medium
 (The star represent a \ly source and the solid line represents the path that
 the \ly photon follow before scaping the cloud).\label{fig:rw}}
@@ -270,7 +270,7 @@ would be redshifted. But if it is emitted in the same direction of movement the
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.4]{../Figures/xshift.png}
+\includegraphics[scale=0.4]{Figures/xshift.png}
 \end{center}\caption{Scheme of the frequency shift. Left: Rest frame, Because 
 of the velocity $u$ of the atom absorb a blue-shifted \ly photon, and emit 
 a red-shifted \ly photon. Right HI atom rest frame when all photons have the \ly frequency. (Image credit: Interpereting Lyman $\alpha$ radiation from young, dusty galaxies. By: Peter Laursen, 2010.).\label{fig:xshift}}
@@ -340,7 +340,7 @@ is asymmetric.
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.6]{../Figures/ISM.png}
+\includegraphics[scale=0.6]{Figures/ISM.png}
 \end{center}\caption{The IGM effect on the \ly line. (Image Credit:)\label{fig:IGM}}
 \end{figure}
 
@@ -355,7 +355,7 @@ and some of them are multi-peaked.
 
 \begin{figure}[H]%\label{fig:kulas}
 \begin{center}
-\includegraphics[scale=0.4]{../Figures/kulas.png}
+\includegraphics[scale=0.4]{Figures/kulas.png}
 \end{center}\caption{Asymmetry and multipeaked \ly line profiles. (Image credit: The kinematics of multiple-peaked \ly emission in star-forming galaxies at $z\sim 2$ - 3. Kulas, K. et al 2011)\label{fig:kulas}
  }
 \end{figure}
@@ -460,7 +460,7 @@ used in this work.
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.4]{../Figures/slab.png}
+\includegraphics[scale=0.4]{Figures/slab.png}
 \end{center}\caption{(left) Analytic profile for a dustless infinite slab with central
 \ly sources. (Middle) Maximum peaks position. (Right) Average number of 
 scatterings $N_{scatt}$ in function of the optical depth $\tau$.(Image credit:  CLARA's view on the escape fraction of \ly photons in high redshift galaxies. J.E Forero-Romero, et al 2011)\label{fig:slab}}
@@ -479,7 +479,7 @@ is shown in Fig.\ref{fig:sphere} for different optical depths.
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.4]{../Figures/Sphere.png}
+\includegraphics[scale=0.4]{Figures/Sphere.png}
 \end{center}\caption{Analytic profile for a dustless sphere with central \ly sources.  (Image credit: CLARA's view on the escape fraction of \ly photons in high redshift galaxies. J.E Forero-Romero, et al 2011)\label{fig:sphere}}
 \end{figure}
 
@@ -582,7 +582,7 @@ is carried out, the \ly photons are redshifted.
 
 \begin{figure}[H]%\label{fig:out}
 \begin{center}
-\includegraphics[scale=0.4]{../Figures/out.png}
+\includegraphics[scale=0.4]{Figures/out.png}
 \end{center}\caption{\ly profile of outflows (Expanding medium) dot line, 
 and inflows (Contracting) dot-line. (Image credit: CLARA's view on the escape fraction of \ly photons in high redshift galaxies. J.E Forero-Romero, et al 2011)\label{fig:out}
  }
@@ -657,13 +657,17 @@ observer and the surface have to be taken into account.
 
 \subsection{Future work}
 
+
 There are two main projects which are based on the results obtained in 
 this work. With the aim of testing our model with observations and
 improving the kinematic models of the gas by studying two joint effects
 such as outflows and rotation.  
 
-There are LAEs which are governed by rotational movements, also 
-have spherical shapes and the main \ly sources are in the center. 
+\begin{itemize}
+
+
+\item There are LAEs which are governed by rotation, also 
+have approximated spherical geometries and the main \ly sources are in the center. 
 With these properties such galaxies have the same properties 
 that we studied in this work.  
 Fitting \ly line profile in order  to measure the rotational 
@@ -671,27 +675,25 @@ velocities of such galaxies would be the direct application
 and test of our model. 
 
 To this aim we are fitting our model using a Marov Chain Monte-Carlo 
-method to the observed nerby galaxy LARS02 \citep{LARS}, a preliminary 
-result is shown in Fig.\ref{fig:LARS}, this is the fit after 20 steps
-in the Markov chain (a step takes $\sim 2$ minutes). In the Markov
-chain we have 3 free parameters $\tau$, the rotation velocity $v_{rot}$  
-the viewing angle $\theta$ which the best
-values are represented in the figure.
+method to the observed compact dwarf galaxy \verb+TOL1214-277+\citep{Thuan97, Verhamme15}
+, The spectra of this galaxy is shown in Fig.\ref{fig:tol}, 
+this galaxy have properties that lead us to derive the rotational 
+velocity; it is a compact dwarf galaxy whose geometry can be approximated by a sphere, 
+is young and there is no evidence of outflows see \citep{Verhamme15} for a detailed
+discussion, in that paper this triple-peaked spectra could not be explained
+with the current radiative transfer models. While in our rotation 
+model is a common feature to see a triple-peaked profile. 
 
-\begin{figure}%\label{fig:LARS}
+\begin{figure} 
 \begin{center}
-\includegraphics[scale=0.6]{../Figures/LARS02_fit.png}
-\end{center}\caption{LARS02 MCMC fit using our rotational model with $\tau=100911.81$, rotational velocity $v_{rot}=52.36km/s$ and the viewing angle $\theta =45.23$ \label{fig:LARS}
-} 
+\includegraphics[scale=0.6]{Figures/tol.png}
+\end{center}\caption{Tol1214-277 spectra.\label{fig:tol}} 
 \end{figure}
 
-With this preliminary result we are implementing a MCMC with five free
-parameters  $\tau$, $v_{rot}$, the inclination angle  $\theta$, the 
-gas temperature $T$ and the line center.
-
-Despite the fact that outflows have been broadly studied rotation should 
+\item Despite the fact that outflows have been broadly studied rotation should 
 also be present on these galaxies. The joint effect of the two above properties 
 should have a direct effect on the morphology of the \lya line. We are 
  combining the effect of rotation followed by an outflow. For the rotation
 part we are using our analytic solution and for the outflows
 we are using the shell described in \citep{Verhamme12}. 
+\end{itemize}
