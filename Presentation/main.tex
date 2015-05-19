@@ -8,10 +8,11 @@
 \usecolortheme{default}
 \definecolor{darkred}{RGB}{24,0,0}
 \setbeamercolor{title}{fg=red}
+%\setbeamercolor{frametitle}{fg=black}
 \setbeamertemplate{blocks}[rounded][shadow=true]
 \setbeamertemplate{itemize items}[square]
 \usefonttheme{serif}
-\title{\textbf{The effect of gas bulk rotation on the morphology of the Ly$\alpha$ line.}}
+\title{\textit{\textbf{The effect of gas bulk rotation on the morphology of the Ly$\alpha$ line.}}}
 \author{Juan Nicol\'as Garavito-Camargo \\ Advisor: Jaime E. Forero-Romero}
 \institute{Universidad de los Andes, Bogot\'a, Colombia}
 \date{May 20, 2015}
@@ -28,14 +29,14 @@
 \end{frame}
 
 
-\begin{frame}{Lyman $\alpha$ emission line:}
+\begin{frame}{\textit{\textbf{Lyman $\alpha$ emission line:}}}
 A Ly$\alpha$ photon is emitted with a $\lambda= 121.56 nm$.
 \begin{figure}
 \includegraphics[scale=0.4]{Figures/Hydrogen_transitions.png}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Ly$\alpha$ is in the vacuum UV part of the EM spectrum}
+\begin{frame}{\textit{\textbf{Ly$\alpha$ is in the vacuum UV part of the EM spectrum}}}
 \begin{figure}
 \centering
 \includegraphics[scale=0.18]{Figures/em.jpg}
@@ -46,7 +47,7 @@ A Ly$\alpha$ photon is emitted with a $\lambda= 121.56 nm$.
 \begin{frame}
 \begin{figure}
 \includegraphics[scale=0.8]{Figures/AtmosphericEM.jpg}
-\caption{Atmospheric radiation absorption}
+\caption*{Atmospheric radiation absorption}
 \end{figure}
 \end{frame}
 
@@ -55,10 +56,10 @@ A Ly$\alpha$ photon is emitted with a $\lambda= 121.56 nm$.
 %Lya line characteristics
 %\end{frame}
 
-\begin{frame}{Cosmological Redshift \& the observable LAEs in the visible regime.}
+\begin{frame}{\textit{textbf{Cosmological Redshift \& the observable LAEs in the visible regime.}}}
 \begin{figure}
 \includegraphics[scale=0.3]{Figures/expansion.jpg}
-\caption{Image credit: NASA, ESA, and A. Feild (STScI).}
+\caption*{Image credit: NASA, ESA, and A. Feild (STScI).}
 \end{figure}
 \end{frame}
 
@@ -68,20 +69,19 @@ A Ly$\alpha$ photon is emitted with a $\lambda= 121.56 nm$.
 \end{center}
 \end{frame}
 
-\begin{frame}{Hydrogen in the most abundant element in the Universe.} 
+\begin{frame}{\textit{\textbf{Hydrogen is the most abundant element in the Universe.}}} 
 \begin{figure}
 \includegraphics[scale=0.3]{Figures/astronomy_table.jpg}
 \caption{Astronomers periodic table. Image credit: http://chandra.harvard.edu}
 \end{figure}
 \end{frame}
 
-\begin{frame}{UV radiation mechanisms and sources:}
+\begin{frame}{\textit{\textbf{UV radiation mechanisms and sources:}}}
 
-\begin{itemize}
-\item UV stellar radiation 
-\item Gravitational cooling
-\item UV background radiation
-\end{itemize}
+\textbf{1.} UV stellar radiation. \\ 
+\textbf{2.} Gravitational cooling. \\
+\textbf{3.} UV background radiation.
+
 
 \end{frame}
 
@@ -102,8 +102,12 @@ A Ly$\alpha$ photon is emitted with a $\lambda= 121.56 nm$.
 \end{figure}
 \end{frame}
 
-\begin{frame}{Ly $\alpha$ as an important tool in extragalactic astronomy}
-
+\begin{frame}%{Ly $\alpha$ as an important tool in extragalactic astronomy}
+\begin{figure}
+\begin{flalign*}
+\includegraphics[scale=0.3]{Figures/hdf.png}
+\end{flalign*}
+\end{figure}
 \end{frame}
 
 % units convention 
@@ -113,33 +117,34 @@ A Ly$\alpha$ photon is emitted with a $\lambda= 121.56 nm$.
 %\end{equation}
 %\end{frame}
 
-\begin{frame}{LAEs observed spectra:}
+\begin{frame}{\textit{\textbf{LAEs observed spectra:}}}
 \begin{figure}
 \includegraphics[scale=0.33]{Figures/kulas.png}
 \caption*{Kulas e.a ApJ, 2012.}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Radiative transfer through a static medium:}
+\begin{frame}{\textit{\textbf{Radiative transfer through a static medium:}}}
 \begin{figure}
 \includegraphics[scale=0.3]{Figures/RT.png}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Radiative transfer through a non-static medium:}
+\begin{frame}{\textit{\textbf{Radiative transfer through a non-static medium:}}}
 \begin{figure}
 \includegraphics[scale=0.4]{Figures/xshift.png}
+\caption*{Laursen, P. PhDT, 2010.}
 \end{figure}
 \end{frame}
 
 
-\begin{frame}{Ly$\alpha$ photons undergoes a random walk in space and wavelength}
+\begin{frame}{\textit{\textbf{Ly$\alpha$ photons undergo a random walk in space and wavelength}}}
 \begin{figure}
 \includegraphics[scale=0.4]{Figures/rand_walk.png}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Dust and escape fraction of Ly$\alpha$ photons}
+\begin{frame}{\textit{\textbf{Dust and escape fraction of Ly$\alpha$ photons}}}
 Dust grains can either absorve or scatter Ly$\alpha$ photons. The probability
 of these events is given by the \textbf{Albedo (A)}.
 
@@ -152,7 +157,7 @@ define the \textbf{escape fracion $f_{esc}$}.
  
 \end{frame}
 
-\begin{frame}{Radiative transfer theory I:*}
+\begin{frame}{\textit{\textbf{Radiative transfer theory I:}}}
 
 \begin{equation}\label{eq:analytic}
 \dfrac{d J(\nu)}{d\tau} = \dfrac{(\Delta \nu_D)^2}{2}\dfrac{\partial}{\partial \nu}\phi (\nu) \dfrac{\partial J(\nu)}{\partial \nu}
@@ -168,7 +173,7 @@ the optical depth.
 
 \end{frame}
 
-\begin{frame}{Analytical models}
+\begin{frame}{\textit{\textbf{Analytical models:}}}
 The solution of Eq.\ref{eq:analytic} has been achieved for \textbf{two} simplified 
 models: The infinite homogeneous slab and the homogeneous sphere, both with central 
 Ly$\alpha$ sources.\\
@@ -202,7 +207,7 @@ N_{scatt} = 1.612 \tau
 \end{frame}
 
 
-\begin{frame}{Homogeneous dustless sphere with central sources:}
+\begin{frame}{\textit{\textbf{Homogeneous dustless sphere with central sources:}}}
 
 Mark Dijkstra in 2006 has deirved the analytical profile of the dustless sphere with 
 central sources. 
@@ -222,7 +227,7 @@ J(\tau, x) = \dfrac{\sqrt{\pi}}{4 \sqrt{6}} \dfrac{x^2}{a \tau (1 + cosh[\sqrt{2
 \LARGE{Monte-Carlo approach:}
 \end{frame}
 
-\begin{frame}{Radiative Transfer via Monte-Carlo methods:}
+\begin{frame}{\textit{\textbf{Radiative Transfer via Monte-Carlo methods:}}}
 \begin{itemize}
 \item Set up the initial conditions (Temperature, gas distibution \& kinematics).
 \item Set the Ly$\alpha$ photons initial positions $x_{in}$.
@@ -238,20 +243,22 @@ generate random components for the thermal movements.
 
 
 
-\begin{frame}{Expanding/Contracting sphere:}
+\begin{frame}{\textit{\textbf{Expanding/Contracting sphere:}}}
 \begin{figure}
-\includegraphics[scale=0.4]{Figures/expanding.png}
+\includegraphics[scale=0.5]{Figures/expanding.png}
+\caption*{Forero-Romero e.a 2011.}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Cavities}
-Zheng/Zheng and Dijkstra
-\end{frame}
+%\begin{frame}{Cavities}
+%Zheng/Zheng and Dijkstra
+%\end{frame}
 
-\begin{frame}{A SPH simulated galaxy spectrum}
+\begin{frame}{\textit{\textbf{A simulated galaxy spectrum:}}}
 \begin{figure}
 \includegraphics[scale=0.3]{Figures/verhamme1.png}
 \includegraphics[scale=0.3]{Figures/Verhamme2.png}
+\caption*{Verhamme, A. e.a, A\&A, 2012.}
 \end{figure}
 \end{frame}
 
@@ -265,7 +272,7 @@ Ly$\alpha$ spectrum.}\\
 %---------------------RESULTS-----------------------------
 
 \begin{frame}
-\LARGE{What would be the effect of roation on the morphology of the Ly$\alpha$ line ? 
+\LARGE{What would be the effect of rotation on the morphology of the Ly$\alpha$ line?\\ 
 Is this effect observable?} 
 \end{frame}
 
@@ -276,7 +283,30 @@ Is this effect observable?}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Models}
+\begin{frame}{\textit{\textbf{Initial conditions:}}}
+
+Initial frequency:
+
+\[
+x_{in} = \dfrac{v\cdot k_{in}}{v_{th}}
+\]
+
+Photon direction:
+
+\[
+k_{in} = random
+\]
+
+Albedo (Probability that the photon is abosorbed by the dust grains):
+
+\[
+A = \dfrac{1}{2}
+\]
+
+
+\end{frame}
+
+\begin{frame}{\textit{\textbf{Models:}}}
 \begin{table}
 \begin{center}
 \begin{tabular}{llc}\hline\hline
@@ -307,14 +337,14 @@ main line characteristics.}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Central model spectrum:}
+\begin{frame}
 \begin{figure}
-\includegraphics[scale=0.18]{Figures/f2.png}
+\includegraphics[scale=0.2]{Figures/f4-2.pdf}
 \caption*{Garavito-Camargo e.a 2014}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Homogeneous model spectrum:}
+\begin{frame}{\textbf{\textit{Homogeneous model spectrum:}}}
 \begin{figure}
 \includegraphics[scale=0.18]{Figures/f3.png}
 \caption*{Garavito-Camargo e.a 2014}
@@ -328,7 +358,7 @@ main line characteristics.}
 %\end{frame}
 
 
-\begin{frame}{The width of the line \textbf{increases} proportional to the rotation velocity.}
+\begin{frame}{\textit{\textbf{The width of the line increases proportional to the rotation velocity.}}}
 \begin{figure}
 \includegraphics[scale=0.26]{Figures/f7.png}
 \caption*{Garavito-Camargo e.a 2014}
@@ -336,35 +366,39 @@ main line characteristics.}
 \end{frame}
 
 
-\begin{frame}{The width of the line \textbf{increases} proportional to the viewing angle $\theta$}
+\begin{frame}{\textit{\textbf{The width of the line increases proportional to the viewing angle $\theta$}}}
 \begin{figure}
 \includegraphics[scale=0.23]{Figures/f6.png}
 \caption*{Garavito-Camargo e.a 2014}
 \end{figure}
+\[
+FWHM^2 = FWHM_0 ^2 + \left (\dfrac{V_{max}}{\lambda}\right ) ^2
+\]
 \end{frame}
 
-\begin{frame}{The flux at the line center \textbf{increases} with the rotation velocity and the viewing angle $\theta$.}
+\begin{frame}{\textit{\textbf{The flux at the line center increases with the rotation velocity and the viewing angle $\theta$.}}}
 \begin{figure}
 \includegraphics[scale=0.23]{Figures/f8.png}
 \caption*{Garavito-Camargo e.a 2014}
 \end{figure}
 \end{frame}
 
-\begin{frame}{The avergae number of scatterings is \textbf{unaffected} by rotation and viewing angle.}
+\begin{frame}{\textit{\textbf{The average number of scatterings is unaffected by rotation and viewing angle.}}}
 \begin{figure}
-\includegraphics[scale=0.30]{Figures/f9h.png}
+\includegraphics[scale=0.25]{Figures/f13.pdf}
+\includegraphics[scale=0.25]{Figures/f9h.png}
 \caption*{Garavito-Camargo e.a 2014}
 \end{figure}
 \end{frame}
 
-\begin{frame}{The escape fraction of Ly$\alpha$ is \textbf{unaffected} by rotation and viewing angle.}
+\begin{frame}{\textit{\textbf{The escape fraction of Ly$\alpha$ is unaffected by rotation and viewing angle.}}}
 \begin{figure}
 \includegraphics[scale=0.30]{Figures/f10.png}
 \caption*{Garavito-Camargo e.a 2014}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Analytic aproximation}
+\begin{frame}{\textit{\textbf{Analytic approximation:}}}
 
 \begin{equation}
 J(x, b, \phi, i) = \dfrac{\sqrt{\pi}}{\sqrt{24}a\tau}\left( \dfrac{(x - x_b)^2}{1 + cosh[\sqrt{\dfrac{2\pi^3}{27}}\dfrac{|(x-x_b)^3|}{a\tau}]} \right ) 
@@ -392,7 +426,7 @@ tan \beta = tan|90^o-a| = \dfrac{c}{d} = \dfrac{b sin \phi}{\sqrt{R^2 - b^2}}
 \end{equation}
 \end{frame}
 
-\begin{frame}{Analytic aproximation}
+\begin{frame}{\textit{\textbf{Analytic approximation:}}}
 \begin{figure}
 \includegraphics[scale=0.2]{Figures/vary_angle1.png}
 \includegraphics[scale=0.2]{Figures/vary_vel1.png}
@@ -402,30 +436,30 @@ tan \beta = tan|90^o-a| = \dfrac{c}{d} = \dfrac{b sin \phi}{\sqrt{R^2 - b^2}}
 
 
 
-\begin{frame}{Lyman alpha observed in rotation}
+\begin{frame}{\textit{\textbf{Lyman alpha observed in rotation:}}}
 \begin{figure}
 \includegraphics[scale=0.2]{Figures/measure.png}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Conclusions:}
+\begin{frame}{\textit{\textbf{Conclusions:}}}
 \textbf{1.} Rotation has an impact in the Ly$\alpha$ line morphology; the width and the relative intensity 
 of the peaks and the center of the line are affected.  For high velocities the line broadens and
 becomes single peaked. This boradens follows:
 
 \[
-FWHM^2 = FWHM_0^2 + \left( \dfrac{V_{max}}{\gamma} \right )^2
+FWHM^2 = FWHM_0^2 + \left( \dfrac{V_{max}}{\lambda} \right )^2
 \]
 \end{frame}
 
-\begin{frame}{Conclusions:}
+\begin{frame}{\textit{\textbf{Conclusions:}}}
 \textbf{2.} Rotation induces an anisotropy for different viewing angles, for viewing angles close to the 
 pole the line are double peaked and the line makes a transition to single peaked for viewing 
 angles along the equator.
 \end{frame}
 
 
-\begin{frame}{Conclusions:}
+\begin{frame}{\textit{\textbf{Conclusions:}}}
 \textbf{3.} The scape fraction $f_{esc}$, the average number of scatterings $N_{scatt}$ 
 and the integrated flux of the line are not affected by rotation neither by the viewing angle.
 \end{frame}
