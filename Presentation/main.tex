@@ -3,6 +3,7 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{multimedia}
+\usepackage{caption}
 \usetheme{default}
 \usecolortheme{default}
 \definecolor{darkred}{RGB}{24,0,0}
@@ -10,8 +11,7 @@
 \setbeamertemplate{blocks}[rounded][shadow=true]
 \setbeamertemplate{itemize items}[square]
 \usefonttheme{serif}
-\title[Make a LaTeX presentation using Beamer]{The effect of gas bulk 
-rotation in the morphology of the Ly$\alpha$ line.}
+\title{\textbf{The effect of gas bulk rotation on the morphology of the Ly$\alpha$ line.}}
 \author{Juan Nicol\'as Garavito-Camargo \\ Advisor: Jaime E. Forero-Romero}
 \institute{Universidad de los Andes, Bogot\'a, Colombia}
 \date{May 20, 2015}
@@ -106,21 +106,23 @@ A Ly$\alpha$ photon is emitted with a $\lambda= 121.56 nm$.
 
 \end{frame}
 
-\begin{frame}{Units convention:}
-\begin{equation}
-V = \dfrac{\nu_{obs} - \nu_{\alpha}}{c}
-\end{equation}
-\end{frame}
+% units convention 
+%\begin{frame}{Units convention:}
+%\begin{equation}
+%V = \dfrac{\nu_{obs} - \nu_{\alpha}}{c}
+%\end{equation}
+%\end{frame}
 
-\begin{frame}{LAEs spectra}
+\begin{frame}{LAEs observed spectra:}
 \begin{figure}
-\includegraphics[scale=0.3]{Figures/kulas.png}
+\includegraphics[scale=0.33]{Figures/kulas.png}
+\caption*{Kulas e.a ApJ, 2012.}
 \end{figure}
 \end{frame}
 
 \begin{frame}{Radiative transfer through a static medium:}
 \begin{figure}
-\includegraphics[scale=0.4]{Figures/RT.png}
+\includegraphics[scale=0.3]{Figures/RT.png}
 \end{figure}
 \end{frame}
 
@@ -138,18 +140,87 @@ V = \dfrac{\nu_{obs} - \nu_{\alpha}}{c}
 \end{frame}
 
 \begin{frame}{Dust and escape fraction of Ly$\alpha$ photons}
+Dust grains can either absorve or scatter Ly$\alpha$ photons. The probability
+of these events is given by the \textbf{Albedo (A)}.
 
+\[   
+A = \dfrac{\sigma_{scatt}}{\sigma_{dust}}
+\]
+
+The ratio of Ly$\alpha$ phtons observed over the Ly$\alpha$ photons emitted
+define the \textbf{escape fracion $f_{esc}$}.
+ 
 \end{frame}
 
 \begin{frame}{Radiative transfer theory I:*}
 
+\begin{equation}\label{eq:analytic}
+\dfrac{d J(\nu)}{d\tau} = \dfrac{(\Delta \nu_D)^2}{2}\dfrac{\partial}{\partial \nu}\phi (\nu) \dfrac{\partial J(\nu)}{\partial \nu}
+\end{equation}
+
+Where $\nu$ is the frequency of the photons, $\phi(\nu)$ is the Voigt profile and $\tau$
+the optical depth.
+
+\begin{figure}
+\includegraphics[scale=0.2]{Figures/voigt.png}
+\caption{Voigt profile}
+\end{figure}
+
 \end{frame}
 
-\begin{frame}{Radiative transfer theory II:*}
+\begin{frame}{Analytical models}
+The solution of Eq.\ref{eq:analytic} has been achieved for \textbf{two} simplified 
+models: The infinite homogeneous slab and the homogeneous sphere, both with central 
+Ly$\alpha$ sources.\\
+
+This analytical solution for the slab geometry was derived by Neufeld in 1990.  
+
+\begin{equation}
+J(\tau, x) = \dfrac{\sqrt{6}}{24}\dfrac{x^2}{\sqrt{\pi}a \tau cosh[\sqrt{\pi^3/54}(x^3 - x_{in}^3)]}
+\end{equation}
+
+Where $a = A / 4\pi \Delta \nu_D$ is the voigt parameter and $\tau$ the optical depth. Harrington in 
+1993 derived the frequency at which the line has the maximum intensity:
+
+\[
+x_m = \pm 1.066 (a\tau)^(1/3)
+\]
+
+And the average number of scatterings:
+
+\[
+N_{scatt} = 1.612 \tau
+\]
 
 \end{frame}
 
+\begin{frame}{Infinite slab spectrum:}
+\begin{figure}
+\includegraphics[scale=0.4]{Figures/slab.png}
+\caption*{Forero-Romero e.a 2011.}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}{Homogeneous dustless sphere with central sources:}
+
+Mark Dijkstra in 2006 has deirved the analytical profile of the dustless sphere with 
+central sources. 
+
+\begin{equation}
+J(\tau, x) = \dfrac{\sqrt{\pi}}{4 \sqrt{6}} \dfrac{x^2}{a \tau (1 + cosh[\sqrt{2\pi^3/27}x^3 / a\tau])}
+\end{equation}
+
+\begin{figure}
+\includegraphics[scale=0.2]{Figures/sphere.png}
+\caption*{Forero-Romero e.a 2011.}
+\end{figure}
+\end{frame}
 %-------------------------- Previous studies ---------------------
+
+\begin{frame}
+\LARGE{Monte-Carlo approach:}
+\end{frame}
 
 \begin{frame}{Radiative Transfer via Monte-Carlo methods:}
 \begin{itemize}
@@ -166,29 +237,6 @@ generate random components for the thermal movements.
 \end{frame}
 
 
-
-\begin{frame}{Infinite slab:}
-\begin{figure}
-\includegraphics[scale=0.4]{Figures/slab.png}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Sphere with central sources:}
-\begin{figure}
-\includegraphics[scale=0.4]{Figures/sphere.png}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Sphere with homogeneous and central sources:}
-\begin{figure}
-\includegraphics[scale=0.4]{Figures/homcen.png}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-\LARGE{Different geometries have an impact on the morphology of the 
-Ly$\alpha$ spectrum.}
-\end{frame}
 
 \begin{frame}{Expanding/Contracting sphere:}
 \begin{figure}
@@ -207,10 +255,28 @@ Zheng/Zheng and Dijkstra
 \end{figure}
 \end{frame}
 
+\begin{frame}
+\LARGE{Different geometries and kinematics of the gas have an impact on the morphology of the
+Ly$\alpha$ spectrum.}\\
+
+\end{frame}
+
 
 %---------------------RESULTS-----------------------------
 
 \begin{frame}
+\LARGE{What would be the effect of roation on the morphology of the Ly$\alpha$ line ? 
+Is this effect observable?} 
+\end{frame}
+
+
+\begin{frame}
+\begin{figure}
+\includegraphics[scale=0.3]{Figures/models.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Models}
 \begin{table}
 \begin{center}
 \begin{tabular}{llc}\hline\hline
@@ -226,85 +292,146 @@ Photons Distributions & & Central, Homogeneous\\\hline\hline
 \end{frame}
 
 
+\begin{frame}
+\LARGE{We measure the impact of rotation and viewing angle $\theta$ for the 
+main line characteristics.}
+\begin{figure}
+\includegraphics[scale=0.2]{Figures/theta.png}
+\end{figure}
+\end{frame}
 
 \begin{frame}
-\LARGE{We measure the impact of rotation and viewing angle $\theta$ in the 
-main line characteristics characteristics}
-\end{frame}
-
-\begin{frame}{Simulated spectra}
 \begin{figure}
-\includegraphics[scale=0.16]{Figures/f4.pdf}
+\includegraphics[scale=0.2]{Figures/f4.pdf}
+\caption*{Garavito-Camargo e.a 2014}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Simulated spectra}
+\begin{frame}{Central model spectrum:}
 \begin{figure}
-\includegraphics[scale=0.16]{Figures/f2.png}
+\includegraphics[scale=0.18]{Figures/f2.png}
+\caption*{Garavito-Camargo e.a 2014}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Simulated spectra}
+\begin{frame}{Homogeneous model spectrum:}
 \begin{figure}
-\includegraphics[scale=0.16]{Figures/f3.png}
+\includegraphics[scale=0.18]{Figures/f3.png}
+\caption*{Garavito-Camargo e.a 2014}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Simulated spectra}
+%\begin{frame}{Simulated spectra}
+%\begin{figure}
+%\includegraphics[scale=0.4]{Figures/f5.png}
+%\end{figure}
+%\end{frame}
+
+
+\begin{frame}{The width of the line \textbf{increases} proportional to the rotation velocity.}
 \begin{figure}
-\includegraphics[scale=0.4]{Figures/f5.png}
+\includegraphics[scale=0.26]{Figures/f7.png}
+\caption*{Garavito-Camargo e.a 2014}
 \end{figure}
 \end{frame}
 
 
-\begin{frame}{The width of the line increases proportional with the rotation velocity.}
+\begin{frame}{The width of the line \textbf{increases} proportional to the viewing angle $\theta$}
 \begin{figure}
-\includegraphics[scale=0.16]{Figures/f7.png}
+\includegraphics[scale=0.23]{Figures/f6.png}
+\caption*{Garavito-Camargo e.a 2014}
 \end{figure}
 \end{frame}
 
-
-\begin{frame}{The width of the line increases proportional with the rotation velocity.}
+\begin{frame}{The flux at the line center \textbf{increases} with the rotation velocity and the viewing angle $\theta$.}
 \begin{figure}
-\includegraphics[scale=0.16]{Figures/f6.png}
+\includegraphics[scale=0.23]{Figures/f8.png}
+\caption*{Garavito-Camargo e.a 2014}
 \end{figure}
 \end{frame}
 
-\begin{frame}{The width of the line increases proportional with the rotation velocity.}
+\begin{frame}{The avergae number of scatterings is \textbf{unaffected} by rotation and viewing angle.}
 \begin{figure}
-\includegraphics[scale=0.16]{Figures/f8.png}
+\includegraphics[scale=0.30]{Figures/f9h.png}
+\caption*{Garavito-Camargo e.a 2014}
 \end{figure}
 \end{frame}
 
-\begin{frame}{The width of the line increases proportional with the rotation velocity.}
+\begin{frame}{The escape fraction of Ly$\alpha$ is \textbf{unaffected} by rotation and viewing angle.}
 \begin{figure}
-\includegraphics[scale=0.16]{Figures/f9h.png}
-\end{figure}
-\end{frame}
-
-\begin{frame}{The width of the line increases proportional with the rotation velocity.}
-\begin{figure}
-\includegraphics[scale=0.16]{Figures/f10.png}
+\includegraphics[scale=0.30]{Figures/f10.png}
+\caption*{Garavito-Camargo e.a 2014}
 \end{figure}
 \end{frame}
 
 \begin{frame}{Analytic aproximation}
 
+\begin{equation}
+J(x, b, \phi, i) = \dfrac{\sqrt{\pi}}{\sqrt{24}a\tau}\left( \dfrac{(x - x_b)^2}{1 + cosh[\sqrt{\dfrac{2\pi^3}{27}}\dfrac{|(x-x_b)^3|}{a\tau}]} \right ) 
+\end{equation}
+
+
+\begin{equation}
+J(x, i) = 2\pi \int \limits_0^R db b \int \limits_0^{2\pi}d\phi S(b,\phi)J(x, b, \phi, i) \approx 2\pi \int \limits_0^R db b \int \limits_0^{2\pi}d\phi J(x, b, \phi, i)
+\end{equation}
+\end{frame}
+
+\begin{frame}
+\begin{figure}
+\includegraphics[scale=0.2]{Figures/fig11a.pdf}
+\includegraphics[scale=0.2]{Figures/fig11b.pdf}
+\caption*{Garavito-Camargo e.a 2014}
+\end{figure}
+
+\begin{equation}
+v_b(b, \phi, i) =   V_{max}\dfrac{\sqrt{R^2 - s^2}}{R}cosi cosa
+\end{equation}
+
+\begin{equation}
+tan \beta = tan|90^o-a| = \dfrac{c}{d} = \dfrac{b sin \phi}{\sqrt{R^2 - b^2}}
+\end{equation}
 \end{frame}
 
 \begin{frame}{Analytic aproximation}
-
-\end{frame}{Lyman alpha observed in rotation}
-
-\begin{frame}
-
+\begin{figure}
+\includegraphics[scale=0.2]{Figures/vary_angle1.png}
+\includegraphics[scale=0.2]{Figures/vary_vel1.png}
+\caption*{Garavito-Camargo e.a 2014}
+\end{figure}
 \end{frame}
 
-\begin{frame}{Conclusions}
+
+
+\begin{frame}{Lyman alpha observed in rotation}
+\begin{figure}
+\includegraphics[scale=0.2]{Figures/measure.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Conclusions:}
+\textbf{1.} Rotation has an impact in the Ly$\alpha$ line morphology; the width and the relative intensity 
+of the peaks and the center of the line are affected.  For high velocities the line broadens and
+becomes single peaked. This boradens follows:
+
+\[
+FWHM^2 = FWHM_0^2 + \left( \dfrac{V_{max}}{\gamma} \right )^2
+\]
+\end{frame}
+
+\begin{frame}{Conclusions:}
+\textbf{2.} Rotation induces an anisotropy for different viewing angles, for viewing angles close to the 
+pole the line are double peaked and the line makes a transition to single peaked for viewing 
+angles along the equator.
+\end{frame}
+
+
+\begin{frame}{Conclusions:}
+\textbf{3.} The scape fraction $f_{esc}$, the average number of scatterings $N_{scatt}$ 
+and the integrated flux of the line are not affected by rotation neither by the viewing angle.
 \end{frame}
 
 \begin{frame}{Work in progress}
-fit of the line
+Fit of the line
 \end{frame}
 
 \begin{frame}{Work in progress}
