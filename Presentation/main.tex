@@ -26,12 +26,13 @@
 %\rule{1.28cm}{0.72cm}
 \includegraphics[scale=0.35]{Figures/logo.jpeg}
 \end{figure}
+\textit{\textbf{In collaboration with Mark Dijkstra.}}
 \end{frame}
 
 \begin{frame}{\textit{\textbf{Emission lines: Transitions from higher to lower energy levels in the atoms.}}}
 \begin{figure}
 \includegraphics[scale=0.35]{Figures/emission.jpg}
-\caption*{Wavelenght}
+\caption*{Wavelenght($\AA$)}
 \end{figure}
 \end{frame}
 
@@ -51,7 +52,7 @@ A Ly$\alpha$ photon is emitted with a $\lambda= 121.56 nm$.
 \end{figure}
 \end{frame}
 
-\begin{frame}{\textit{\textbf{Ly$\alpha$ is in the vacuum UV part of the EM spectrum.}}}
+\begin{frame}{\textit{\textbf{Ly$\alpha$ is in the UV part of the EM spectrum.}}}
 \begin{figure}
 \centering
 \includegraphics[scale=0.18]{Figures/em.jpg}
@@ -59,7 +60,7 @@ A Ly$\alpha$ photon is emitted with a $\lambda= 121.56 nm$.
 \end{frame}
 
 
-\begin{frame}{\textit{\textbf{The Ly $\alpha$ is not observable from earth.}}}
+\begin{frame}{\textit{\textbf{The Ly $\alpha$ is no observable from earth.}}}
 \begin{figure}
 \includegraphics[scale=0.8]{Figures/AtmosphericEM.jpg}
 \caption*{Atmospheric radiation absorption}
@@ -88,10 +89,17 @@ A Ly$\alpha$ photon is emitted with a $\lambda= 121.56 nm$.
 \begin{frame}{\textit{\textbf{UV radiation mechanisms and sources:}}}
 
 \textbf{1. UV stellar radiation.} \\ 
-\textbf{2.} Gravitational cooling. \\
-\textbf{3.} UV background radiation.
+\begin{figure}
+\includegraphics[scale=0.2]{Figures/stars.jpg}
+\end{figure}
+\end{frame}
 
 
+\begin{frame}{Gravitational cooling \& UV background radiation:}
+\begin{figure}
+\includegraphics[scale=0.4]{Figures/quasar.jpg}
+\caption*{Cantalupo, e.a. MNRAS 2012}
+\end{figure}
 \end{frame}
 
 \begin{frame}%n{figure}
@@ -121,26 +129,35 @@ A Ly$\alpha$ photon is emitted with a $\lambda= 121.56 nm$.
 \end{frame}
 
 % units convention 
-%\begin{frame}{Units convention:}
-%\begin{equation}
-%V = \dfrac{\nu_{obs} - \nu_{\alpha}}{c}
-%\end{equation}
-%\end{frame}
+\begin{frame}{Units convention:}
+\[
+x = \dfrac{\nu_{obs} - \nu_{\alpha}}{\Delta \nu_{D}} 
+\]
 
-\begin{frame}{\textit{\textbf{LAEs observed spectra:}}}
+\[
+\Delta \nu_{D} = \dfrac{v_{th}}{c}\nu_{\alpha}
+\]
+
+\[
+V = x v_{th} = \dfrac{(\nu_{obs} - \nu_{\alpha})}{\nu_{\alpha}} c
+\]
+
+\end{frame}
+
+\begin{frame}{\textit{\textbf{LAEs spectra are diverse:}}}
 \begin{figure}
 \includegraphics[scale=0.27]{Figures/kulas.png}
 \caption*{Kulas e.a ApJ, 2012.}
 \end{figure}
 \end{frame}
 
-\begin{frame}{\textit{\textbf{Radiative transfer through a static medium:}}}
+\begin{frame}{\textit{\textbf{Radiative transfer is more complex than usual:}}}
 \begin{figure}
 \includegraphics[scale=0.3]{Figures/RT.png}
 \end{figure}
 \end{frame}
 
-\begin{frame}{\textit{\textbf{Radiative transfer through a non-static medium:}}}
+\begin{frame}{\textit{\textbf{Radiative transfer in a non-static medium induces	 shifts on the line:}}}
 \begin{figure}
 \includegraphics[scale=0.4]{Figures/xshift.png}
 \caption*{Laursen, P. PhDT, 2010.}
@@ -148,26 +165,24 @@ A Ly$\alpha$ photon is emitted with a $\lambda= 121.56 nm$.
 \end{frame}
 
 
-\begin{frame}{\textit{\textbf{Ly$\alpha$ photons undergo random walks in space and wavelength}}}
+\begin{frame}{\textit{\textbf{Ly$\alpha$ line is shaped by density, temperature and velocity}}}
 \begin{figure}
 \includegraphics[scale=0.4]{Figures/rand_walk.png}
 \end{figure}
 \end{frame}
 
 \begin{frame}{\textit{\textbf{Dust absorbs Ly$\alpha$ photons}}}
-Dust grains can either absorve or scatter Ly$\alpha$ photons. The probability
+Dust grains can either absorbe or scatter Ly$\alpha$ photons. The probability
 of these events is given by the \textbf{Albedo (A)}.
 
 \[   
 A = \dfrac{\sigma_{scatt}}{\sigma_{dust}}
 \]
 
-The ratio of Ly$\alpha$ photons observed over the Ly$\alpha$ photons emitted
-define the \textbf{escape fraction $f_{esc}$}.
  
 \end{frame}
 
-\begin{frame}{\textit{\textbf{Definitions:}}}
+\begin{frame}{\textit{\textbf{Optical depth:}}}
 \LARGE{$\tau = nL\sigma$}
 \begin{figure}
 \includegraphics[scale=0.3]{Figures/od.png}
@@ -175,7 +190,7 @@ define the \textbf{escape fraction $f_{esc}$}.
 \end{frame}
 
 
-\begin{frame}{\textit{\textbf{Radiative transfer theory I:}}}
+\begin{frame}{\textit{\textbf{Radiative transfer as diffusion process:}}}
 
 \begin{equation}\label{eq:analytic}
 \dfrac{d J(\nu)}{d\tau} = \dfrac{(\Delta \nu_D)^2}{2}\dfrac{\partial}{\partial \nu}\phi (\nu) \dfrac{\partial J(\nu)}{\partial \nu}
@@ -193,7 +208,7 @@ the optical depth.
 
 
 
-\begin{frame}{\textit{\textbf{Infinite slab spectrum:}}}
+\begin{frame}{\textit{\textbf{A slab geometry induces a double-peak in the line:}}}
 \begin{figure}
 \includegraphics[scale=0.4]{Figures/slab.png}
 \caption*{Forero-Romero e.a 2011.}
@@ -201,7 +216,7 @@ the optical depth.
 \end{frame}
 
 
-\begin{frame}{\textit{\textbf{Homogeneous dustless sphere with central sources:}}}
+\begin{frame}{\textit{\textbf{A spherical distribution induces a double-peak in the line:}}}
 \begin{figure}
 \includegraphics[scale=0.35]{Figures/sphere.png}
 \caption*{Forero-Romero e.a 2011.}
@@ -221,25 +236,29 @@ the optical depth.
 
 
 
-\begin{frame}{\textit{\textbf{Expanding/Contracting sphere:}}}
+\begin{frame}{\textit{\textbf{Asymmetries in the line can be induced by kinematics:}}}
 \begin{figure}
 \includegraphics[scale=0.5]{Figures/expanding.png}
 \caption*{Forero-Romero e.a 2011.}
 \end{figure}
 \end{frame}
 
+
+
+
 %\begin{frame}{Cavities}
 %Zheng/Zheng and Dijkstra
 %\end{frame}
 
-%\begin{frame}{\textit{\textbf{Thin shell model:}}}
-%\begin{figure}
-%\caption*{Verhamme, A. e.a, A\&A, 2012.}
-%\end{figure}
-%\end{frame}
+\begin{frame}{\textit{\textbf{Thin shell model:}}}
+\begin{figure}
+\includegraphics[scale=0.3]{Figures/shell.png}
+\caption*{Verhamme, A. e.a, A\&A, 2006.}
+\end{figure}
+\end{frame}
 
 \begin{frame}
-\LARGE{Different geometries and kinematics of the gas have an impact on the morphology of the
+\LARGE{Different geometries and kinematics of the gas has an impact on the morphology of the
 Ly$\alpha$ spectrum.}\\
 
 \end{frame}
@@ -276,7 +295,7 @@ Photons Distributions & & Central, Homogeneous\\\hline\hline
 \end{frame}
 
 
-\begin{frame}
+\begin{frame}{\textit{\textbf{Rotation has an effect on the morphology of the line:}}}
 \LARGE{We measure the impact of rotation and viewing angle $\theta$ for the 
 main line characteristics.}
 \begin{figure}
@@ -284,14 +303,14 @@ main line characteristics.}
 \end{figure}
 \end{frame}
 
-\begin{frame}
+\begin{frame}{\textit{\textbf{The morphology of the line is affected by rotation}}}
 \begin{figure}
 \includegraphics[scale=0.4]{Figures/difvel.png}
 \caption*{Garavito-Camargo e.a 2014}
 \end{figure}
 \end{frame}
 
-\begin{frame}
+\begin{frame}{\textit{\textbf{The morphology of the line changes for different observers}}}
 \begin{figure}
 \includegraphics[scale=0.4]{Figures/diftheta.png}
 \caption*{Garavito-Camargo e.a 2014}
@@ -337,7 +356,7 @@ FWHM^2 = FWHM_0 ^2 + \left (\dfrac{V_{max}}{\lambda}\right ) ^2
 \begin{frame}{\textit{\textbf{The flux at the line center increases with the rotation velocity and the viewing angle $\theta$.}}}
 \begin{figure}
 \includegraphics[scale=0.4]{Figures/f8.png}
-\caption*{Garavito-Camargo e.a 2014}
+\caption*{Equator \ \ \ \ \ \ \    Garavito-Camargo e.a 2014  \ \ \ \ \ \ Poles}
 \end{figure}
 \end{frame}
 
@@ -399,35 +418,53 @@ J(x, i) = 2\pi \int \limits_0^R db b \int \limits_0^{2\pi}d\phi S(b,\phi)J(x, b,
 \begin{frame}{\textit{\textbf{Lyman alpha observed in rotation:}}}
 \begin{figure}
 \includegraphics[scale=0.2]{Figures/measure.png}
-\includegraphics[scale=0.4]{Figures/obs.png}
+\includegraphics[scale=0.3]{Figures/obs.png}
+%\includegraphics[scale=0.15]{Figures/rotation1.png}
+%\includegraphics[scale=0.15]{Figures/rotation2.png}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\begin{figure}
+\includegraphics[scale=0.25]{Figures/rotation1.png}
+\includegraphics[scale=0.25]{Figures/rotation2.png}
+\caption*{Prescott e.a, ApJ,  2014.}
 \end{figure}
 \end{frame}
 
 \begin{frame}{\textit{\textbf{Conclusions:}}}
-\textbf{1.} Rotation has an impact in the Ly$\alpha$ line morphology; the width and the relative intensity 
-of the peaks and the center of the line are affected.  For high velocities the line broadens and
-becomes single peaked. This boradens follows:
-
+\textbf{1.} Rotation has an impact in the Ly$\alpha$ line morphology; the width and the relative intensity of the peaks and the center of the line are affected.
 \[
 FWHM^2 = FWHM_0^2 + \left( \dfrac{V_{max}}{\lambda} \right )^2
 \]
+
+\begin{figure}
+\includegraphics[scale=0.3]{Figures/difvel.png}
+\end{figure}
+
 \end{frame}
 
 \begin{frame}{\textit{\textbf{Conclusions:}}}
-\textbf{2.} Rotation induces an anisotropy for different viewing angles, for viewing angles close to the 
-pole the line are double peaked and the line makes a transition to single peaked for viewing 
-angles along the equator.
+\textbf{2.} Rotation induces an anisotropy for different viewing angles.
+\begin{figure}
+\includegraphics[scale=0.3]{Figures/diftheta.png}
+\end{figure}
 \end{frame}
 
 
 \begin{frame}{\textit{\textbf{Conclusions:}}}
-\textbf{3.} The scape fraction $f_{esc}$, the average number of scatterings $N_{scatt}$ 
-and the integrated flux of the line are not affected by rotation neither by the viewing angle.
+\textbf{3.} An analytical approximation could be derived.
+\begin{figure}
+\includegraphics[scale=0.3]{Figures/vary_vel1.png}
+\end{figure}
 \end{frame}
 
-%\begin{frame}{Work in progress}
-%Fit of the line
-%\end{frame}
+\begin{frame}{\textit{\textbf{In progress:}}}
+\begin{figure}
+\includegraphics[scale=0.4]{Figures/CLARA-TOL.png}
+\end{figure}
+\end{frame}
 
 %\begin{frame}{Work in progress}
 %rotation + outfloes

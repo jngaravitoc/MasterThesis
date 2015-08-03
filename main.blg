@@ -8,14 +8,13 @@ I was expecting a `,' or a `}'---line 702 of file references.bib
  : %and
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "DjorgovskiThompson92"
 Warning--I didn't find a database entry for "eufeld90"
 Warning--empty publisher in RybickiLightman79
 Warning--empty year in Gawiser2007
 Warning--empty year in Gawiser2007
 You've used 52 entries,
             2481 wiz_defined-function locations,
-            934 strings with 16697 characters,
+            932 strings with 16657 characters,
 and the built_in function-call counts, 23303 in all, are:
 = -- 1669
 > -- 1850

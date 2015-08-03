@@ -100,7 +100,7 @@ The Lyman $\alpha$ (hereafter Ly$\alpha$) emission line is a consequence of the
 transition 
 from the first excited level to the ground level of the electron
 in the Hydrogen atom. When the electron undergoes such transition 
-a photon is emitted with an energy of $13.6eV$ which corresponds to 
+a photon is emitted with an energy of $10.2eV$ which corresponds to 
 a rest wavelenght of $1215.67 \AA$. 
 
 This transition is very common in the Universe due to the high abundance
@@ -123,18 +123,18 @@ allow to study the properties of the high redshift Universe such as
 the large scale structure. 
  
 \item {\bf{Galaxy formation and evolution:}} Observed LAEs at different
-reshifts has allowed to derive the Lumimosity Functions (LFs) of LAEs, 
-for this aim a good knowledge of the escape fracition of 
-photons is requiered $f_{esc}$ see \S \ref{sec:ef} for details on the escape 
-fraction of \ly photons. As consequence the observed LAEs LFs enhance a
+reshifts have allowed to derive the Lumimosity Functions (LFs) of LAEs. 
+For this aim a good knowledge of the escape fracition of 
+photons is requiered $f_{esc}$ (see \S \ref{sec:ef} for details on the escape 
+fraction of \ly photons). As a consequence the observed LAEs LFs enhance a
 better understanding of the galaxy formation processes. 
 
 \item {\bf{Reionization:}} The Epoch of Reionization (EoR) is an important
-period of the Universe, in which the neutral cold HI gas reionize to 
+period of the Universe, in which the neutral cold HI gas reionized to 
 become a hot gas. There is evidence from CMB measurements that 
-the EoR must start at $z >> 11$ and should end up at $z\sim5$. During this 
+the EoR must start at $z >> 11$ and should end at $z\sim5$. During this 
 epoch the intergalactic medium (IGM) became opaque to the \ly radiation 
-outcoming from the galaxies. LAEs has also shown to be 
+outcoming from the galaxies. LAEs also shown to be 
 very useful in constraining the time at which the EoR ends. 
 For a complete recent review please see \citep{review} and references
 within.
@@ -145,13 +145,13 @@ within.
 \section{Units, Quantities \& Definitions}
 
 Through this work we will use some units and quantities very popular in 
-this area. For clarity here we briefly define and review this 
+this area. For clarity here we briefly define and review these
 quantities and units.
 
 \subsection{Optical depth and Column Density}
 
 The optical depth $\tau$ is a measure of the "transparency" of the medium
-in which the photons are propagating, $\tau$ is defined as:
+in which the photons are propagating $\tau$ is defined as:
 
 \begin{equation}
 d\tau = \alpha dr
@@ -164,12 +164,12 @@ Where $\alpha$ is the absorption coefficient defined as:
 \end{equation}
 
 From these definitions we can now define the "thickness" of the medium.
-If $\tau > 1$ we said that the medium is optically thick and this means
-that a photon with frequency $\nu$ cannot go through the medium without been
+If $\tau > 1$ we say that the medium is optically thick and this means
+that a photon with frequency $\nu$ cannot go through the medium without being
 absorbed. If $\tau < 1$ the medium is optically thin and the photon
-could be pass through the medium without been absorbed.
+could pass through the medium without been absorbed.
 
-The optical depth measure the distance from the source
+The optical depth measures the distance from the source
 of photons to the surface of the medium. It is also very common 
 to express the amount of gas between the \ly source and the surface
 in terms of the Hydrogen column density 
@@ -179,11 +179,12 @@ where $\sigma$ is the Hydrogen atom cross section.
 \subsection{\ly line profile units}
 
 The frequency $\nu_{\alpha}$ of a \ly photon in rest frame is
-$2.46\times 10^{15}Hz$,
-there are two new variables $x, V$ in which the frequency of 
+$2.46\times 10^{15}Hz$.
+There are two new variables $x, V$ in which the frequency of 
 the \ly alpha photons may be presented in the literature.
 
-The first is a dimensionless variable $x$ defined as:
+The first is a dimensionless variable $x$ which is refered as
+the reduced frequency defined as:
 
 \begin{equation}\label{eq:x}
 x   \equiv \dfrac{(\nu -\nu_{\alpha})}{\Delta \nu_D}
@@ -197,14 +198,14 @@ and follows a Maxwellian distribution. In thermal equilibrium
 we get:
 
 \begin{equation}
-\dfrac{m_H v_{th}}{2} = K_B T 
+\dfrac{m_H v_{th}^2}{2} = K_B T 
 \end{equation}
 
 Where $m_H$ is the Hydrogen atom mass, $K_B$ the Boltzmann constant and $T$
 the temparature in Kelvins, the expression for $v_{th}$ is then:
 
 \begin{equation}
-v_{th} = \sqrt{\dfrac{2 K_B T}{m_H}} = 128.5 T^{1/2}\dfrac{m}{s}
+v_{th} = \sqrt{\dfrac{2 K_B T}{m_H}} = 12.85 T^{1/2}\dfrac{m}{s}
 \end{equation}
 
 The Doppler shift due to $v_{th}$ would be:
@@ -229,20 +230,20 @@ V = xv_{th} = \dfrac{\nu - \nu_{\alpha}}{\nu_{\alpha}}c
 \subsection{Average number of scatterings $N_{scatt}$}
 
 The path of a \ly photon inside an {\bf{optically thick}}
-HI medium is resonant this is explained in more detail 
+HI medium is resonant. This is explained in more detail 
 in \S \ref{sec:resonant}. It basically means that the \ly photon
-after been emitted by the source is absorbed by an H atom
+after being emitted by the source is absorbed by an H atom
 and re-emitted in a time scale of $\sim 10^{-9}$ s.
-For this reason, this process is commonly referred as
+For this reason, this process is commonly refer to
 a scattering process. The total number of scatterings
 is denoted as $N_{scatt}$ and it is proportional to
-$\tau^2$.
+$\tau$.
 
 
 
 \subsection{Resonant scattering}\label{sec:resonant}
 
-Hydrogen is the most abundant element in the Universe furthermore
+Hydrogen is the most abundant element in the Universe. Furthermore
 the \ly line is a very common line. However the transmission of these
 \ly  photons through the Hydrogen clouds is not trivial. There 
 are two main aspects that heavily influence the morphology of the line.
@@ -251,21 +252,21 @@ Imagine that there is one Hydrogen atom which emits
 a \ly photon in the middle of a cloud of HI. 
 The \ly photon will be absorbed and re-emitted from 
 the Hydrogen atom. This process will end up in a random walk in the space,
-and the photon can escape the cloud at any point in of the surface, see 
+and the photon can escape the cloud at any point of the surface, see 
 Fig.\ref{fig:rw}.\\
 
 \begin{figure}
 \begin{center}
 \includegraphics[scale=0.4]{Figures/randomwalk.png}
 \end{center}\caption{Scattering scheme of a \ly photon in a HI medium
-(The star represent a \ly source and the solid line represents the path that
-the \ly photon follow before scaping the cloud).\label{fig:rw}}
+(The star represents a \ly source and the solid line represents the path that
+the \ly photon follows before escaping the cloud).\label{fig:rw}}
 \end{figure}
 
 
-In the previous situation all the Hydrogen atoms were in rest, if the atoms
+In the previous situation all the Hydrogen atoms were at rest. If the atoms
 present proper motions there would be a Doppler shift Fig.\ref{fig:xshift}. 
-If an atom have a velocity $v$ an emit a \ly photon in the direction 
+If an atom have a velocity $v$ and emits a \ly photon in the direction 
 opposite to the movement the \ly photon 
 would be redshifted. But if it is emitted in the same direction of movement the
 \ly photon would be blueshifted.    
@@ -273,22 +274,22 @@ would be redshifted. But if it is emitted in the same direction of movement the
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.4]{Figures/xshift.png}
-\end{center}\caption{Scheme of the frequency shift. Left: Rest frame, Because 
-of the velocity $u$ of the atom absorb a blue-shifted \ly photon, and emit 
+\end{center}\caption{Scheme of the frequency shift. Left: Lab frame, Because 
+of the velocity $u$ of the atom absorbs a blue-shifted \ly photon, and emits 
 a red-shifted \ly photon. Right HI atom rest frame when all photons have the \ly frequency. (Image credit: Interpereting Lyman $\alpha$ radiation from young, dusty galaxies. By: Peter Laursen, 2010.).\label{fig:xshift}}
 \end{figure}
 
 
-This two effects made ratiave trasnfer inside optically thick medium as a random 
+This two effects make radiative trasnfer inside optically thick medium as a random 
 walk in space and frequency. This is why Monte-Carlo methods can be
-applyed to this diffusion process.
+applied to this diffusion process.
  
 \subsection{Escape fraction}\label{sec:ef}
 
-Dust grains are mainly considered as metals in the ISM, these
+Dust grains are mainly considered as metals in the ISM. These
 metals are formed in stars. At high redshifts where galaxies and 
-stars are young the most probable escenario in that supernovae 
-enrich the ISM with dust \citep{Kotak09}, in this way the observed 
+stars are young the most probable scenario is that supernovae 
+enrich the ISM with dust \citep{Kotak09}. In this way the observed 
 dust \citep{Coppin09}  at high redshift is explained. 
 
 The effect of dust in the \ly transfer inside the ISM is that 
@@ -299,25 +300,22 @@ probability of these events is given by the 'albedo' $A$ defined as:
 A = \dfrac{\sigma_{scatt}}{\sigma_{dust}}
 \end{equation}
 
-Where $\sigma_{scatt}$ is the total cross section for scattering 
+Where $\sigma_{scatt}$ is the total extinction cross section, i.e. 
+absorption plus scattering 
 and $\sigma_{dust}$ for absorption. $\sigma_{dust}$ can be derived from 
-dust properties see \citep{Laursen09}. 
+dust properties (see \citep{Laursen09}). 
 
 There are two approaches to the modelling of dust in the \ly RT process.
 As a first approximation the dust distribution is taken as an homogeneous distribution 
 in the HI region and 
 the \ly photons can be absorbed by the dust or scattered. A more
 sophisticated situation is that the medium follows a clumpy distribution
-of dust in which \ly photons are more likely to scatter with the 
+of dust in which \ly photons are more likely to scatter from the 
 clumps rather than absorbed \citep{Laursen13}. To quantify the effect of 
 the dust the ratio
-of \ly photons observed (\ly alpha photons who manage to scape from the medium) 
+of \ly photons observed (\ly photons who manage to scape from the medium) 
 over the \ly photons emitted define a quantity call the {\bf{escape fraction}} $f_{esc}$. 
 
-It is worth pointing out that the analytical
-description of the \ly RT doesn't take into account the presence of
-dust. That is also a motivation to include dust in the numerical simulations.
-As is explained in more detail in \S \ref{sec:analytic}.  
 
 
 
@@ -328,54 +326,54 @@ As is explained in more detail in \S \ref{sec:analytic}.
 Despite the fact that the \ly line is the strongest emission line in 
 the UV, there were 25 years since the prediction of the \ly line to 
 the first observation by \citep{DjorgovskiThomson92}. 
-This long absence of the \ly line is what makes this and excited and 
+This long absence of the \ly line is what makes this and exciting and 
 challenging field.
 
-Figure\ref{fig:IGM} shows the outcoming spectra from a galaxy 
+Figure\ref{fig:IGM} shows the outcoming spectrum from a simulated galaxy 
 at $z \sim 3.5$, the line is double peaked as expected from 
 the radiative transfer process in the galaxy. After the encounter
 with the inter-galactic medium (IGM) de blue peak is diminished.
-Dut to the expansion of the Universe the blue peak 
+Due to the expansion of the Universe the blue peak 
 is shifted to the \ly frequency and the HI in the IGM would absorb
-part of this radiation. As a result the observed spectra (right figure)
+part of this radiation. As a result the observed spectrum (right figure)
 is asymmetric.   
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.6]{Figures/ISM.png}
-\end{center}\caption{The IGM effect on the \ly line. (Image Credit:)\label{fig:IGM}}
+\end{center}\caption{The IGM effect on the \ly line. (Image Credit:\citep{Laursen09})\label{fig:IGM}}
 \end{figure}
 
 
 The gas kinematics in the galaxy also plays a mayor role in shaping
 the morphology of the line, due to the resonant nature of the line. 
-Figure\ref{fig:kulas} show the \ly line
-profile for different galaxies at $z \sim 2 - 3$, due to the different
-kinematics of those galaxies all the spectra reveals asymmetric profiles 
+Figure\ref{fig:kulas} shows the \ly line
+profile for different observed galaxies at $z \sim 2 - 3$, due to the different
+kinematics of those galaxies all the spectra reveal assymmetric profiles 
 and some of them are multi-peaked.    
 
 
 \begin{figure}[H]%\label{fig:kulas}
 \begin{center}
 \includegraphics[scale=0.4]{Figures/kulas.png}
-\end{center}\caption{Asymmetry and multipeaked \ly line profiles. (Image credit: The kinematics of multiple-peaked \ly emission in star-forming galaxies at $z\sim 2$ - 3. Kulas, K. et al 2011)\label{fig:kulas}
+\end{center}\caption{Assymmetric and multipeaked \ly line profiles. (Image credit: The kinematics of multiple-peaked \ly emission in star-forming galaxies at $z\sim 2$ - 3. Kulas, K. et al 2011)\label{fig:kulas}
  }
 \end{figure}
 
-The presence of dust in galaxies also play an important role, dust as explained
+The presence of dust in galaxies also plays an important role. Dust as explained
  in \S\ref{sec:ef} could either absorb or scatter \ly photons. As a 
-consequence dust mainly diminish the intensity of the \ly line of LAEs. 
+consequence dust mainly diminishes the intensity of the \ly line of LAEs. 
 
 Alongside these processes when observing the abundance of LAEs across
 the history of the Universe the population of LAEs increases 
-with the redshift. But at redshifts $z>6$ the  
-abundance of LAEs decrease \citep{Schenker12}. Apparently 
+with redshift. But at redshifts $z>6$ the  
+abundance of LAEs decreases \citep{Schenker12}. Apparently 
  reionization  is governing at that redshift and the IGM medium 
 becomes opaque to \ly radiation.   
 
 All these effects make the \ly line a sensitive line and challenging
 to observe at $z>6$ see \citep{Sobral15}, but with valuable information
-of the ISM/IGM distribution and kinematics. All these makes de \ly
+of the ISM/IGM distribution and kinematics. All this makes de \ly
 line a very useful line to explore the extragalactic Universe as
 discussed in \S\ref{sec:lyuses}.
 
@@ -391,7 +389,7 @@ analytical models are explained in the chronological order in which
 they have been developed. 
 
 The radiative transfer of \ly photons has been studied by several authors
-see \citep{RybickiLightman79} for a complete treatment, the Intensity
+(see \citep{RybickiLightman79} for a complete treatment). The Intensity
 of \ly photons can be studied via:
  
 \begin{equation}\label{eq:RT}
@@ -428,11 +426,11 @@ Eq.\ref{eq:RT} can be expressed as:
 \dfrac{dJ(\nu)}{d\tau} = \dfrac{(\Delta \nu_D)^2}{2}\dfrac{\partial}{\partial \nu}\phi(\nu)\dfrac{\partial J(\nu)}{\partial \nu}
 \end{equation}
 
-Where $\phi(\nu)$ is a Voigt profile (Combolution of a Gaussian profile  
-and Lorentzian profile), this Voigt profile respond to the resonant nature 
+Where $\phi(\nu)$ is a Voigt profile (Convolution of a Gaussian profile  
+and Lorentzian profile). This Voigt profile responds to the resonant nature 
 of the line. Eq.\ref{eq:RTeq} is a diffusion equation in space and frequency
 for the \ly photons in HI clouds. Different authors have solved 
-Eq.\ref{eq:RT} in simplified situations that we are going to discuss above. 
+Eq.\ref{eq:RT} in simplified situations that we are going to discuss next. 
 
 \subsection{Infinite Slab with \ly source at the center:}
 
@@ -441,24 +439,24 @@ was an effort in which different authors made a contribution \citep{Unno55, Oste
 derived by \citep{Neufeld90} based on the previous works. 
 
 \begin{equation}
-J(\tau, x) = \dfrac{\sqrt{6}}{24}\dfrac{x^2}{\sqrt{\pi}a\tau cosh[\sqrt{\pi^3/54}(x^3-x_{in}^3)/a\tau]}
+J(\tau, x) = \dfrac{\sqrt{6}}{24}\dfrac{x^2}{\sqrt{\pi}a\tau_0 cosh[\sqrt{\pi^3/54}(x^3-x_{in}^3)/a\tau_0]}
 \end{equation}
 
-Where $a$ is the Voigt parameter defined as $a=A/4\pi\Delta \nu_D$. \citep{Harrington73} also show that the maximum intensity of the line is at:
+Where $a$ is the Voigt parameter defined as $a=A/4\pi\Delta \nu_D$. \citep{Harrington73} also shows that the maximum intensity of the line is at:
 
 \begin{equation}
-x_m = \pm1.066(a\tau)^{1/3}
+x_m = \pm1.066(a\tau_0)^{1/3}
 \end{equation}
 
 And the average number of scatterings is:
 
 \begin{equation}
-N_{scatt} = 1.612\tau
+N_{scatt} = 1.612\tau_0
 \end{equation}
 
 In Fig.\ref{fig:slab} the analytical profile of the slab solution is shown, 
-the solid line is the simulated profile reproduced with \citep{CLARA} the code
-used in this work.
+the solid line is the simulated profile reproduced with the code
+used in this work \citep{CLARA}.
 
 \begin{figure}[H]
 \begin{center}
@@ -470,10 +468,10 @@ scatterings $N_{scatt}$ in function of the optical depth $\tau$.(Image credit:  
 
 \subsection{Spherical solution}
 
-For a spherical gas dustless distribution with central \ly sources \citep{Dijkstra06} has shown that the emergent spectrum is described by the following expression:
+For a spherical gas and dustless distribution with central \ly sources \citep{Dijkstra06} has shown that the emergent spectrum is described by the following expression:
 
 \begin{equation}
-J(\tau, x) = \dfrac{\sqrt{\pi}}{4\sqrt{6}}\dfrac{x^2}{a\tau (1+cosh[\sqrt{2\pi^3/27}x^3/a\tau])}
+J(\tau, x) = \dfrac{\sqrt{\pi}}{4\sqrt{6}}\dfrac{x^2}{a\tau_0 (1+cosh[\sqrt{2\pi^3/27}x^3/a\tau_0])}
 \end{equation}
 
 The analytical spectrum of the spherical solution 
@@ -508,18 +506,18 @@ J(x,i)= \approx 2\pi \int_0^Rdb \hs b
 In the Universe most of the galaxies have complicated
 geometries (Spirals, irregular) and kinematics that 
 can not be resolved analitically. There are two approaches
-to understant these complicated properties of galaxies, based
+to understand these complicated properties of galaxies, based
 on Monte-Carlo simulations. The first approach is implementing 
-the properties of the galaxies, such as: The geometry
+the properties of the galaxies, such as: the geometry
 of the gas, the kinematics of the gas and the dust. In this 
-approach every property is isolated simulated in order
+approach every property is separately simulated in order
 to compute the \ly profiles, escape fractions, average number
 of scatterings, position of the maximum peaks among others. 
 
 Realistic galaxy properties in the sense of gas geometry
 and kinematics using hydrodynamic simulations. In this 
 approach the galaxy can be simulated isolated see \citep{Verhamme12}
-or galaxies in the cosmic web can also be studied see\citep{Yajima12}.
+or galaxies in the cosmic web can also be studied (see\citep{Yajima12}).
 The temperature, density and gas velocity fields are obtained from 
 the hydrodynamic simulations and then the Monte-Carlo code is 
 implemented in order to compute the profile properties.
@@ -528,15 +526,15 @@ implemented in order to compute the profile properties.
 
 Monte-Carlo (MC) simulations are broadly used in a variety of 
 areas such as science, economy, traffic simulations among 
-many more. MC methods are mostly based in the
+many more. MC methods are mostly based on the
 generation of random numbers that are the core of 
 random walks. This is why MC is used to study the
 \ly profile. Here we briefly describe how this method 
-work. The main thing is that every every \ly photon is simulated
-separately in the following scheme, for a detailed description 
-please see chapters $6-8$ in \citep{LaursenPhD} .
+works. The main thing is that every \ly photon is simulated
+separately in the following scheme (for a detailed description 
+please see chapters $6-8$ in \citep{LaursenPhD}).
 
-\begin{itemize}
+\begin{enumerate}[i]
 \item  The temperature (T) is very common to take $T=10^4K$, gas distribution ($\tau$) and kinematics ($V$) is implemented. 
 
 \item Initialize your \ly photon initial position and frequency $x_{in}$
@@ -549,12 +547,12 @@ and generate random components for the thermal movements.
 
 \item  Set the new direction of the \ly photon after scattering.
 
-\item If the \ly photon encounter a dust particle the albedo probability 
-would define if the atom is absorbed or scattered. In also common to take $A=1/2$
+\item If the \ly photon encounters a dust particle the albedo probability 
+would define if the atom is absorbed or scattered. It is also common to take $A=1/2$
 
-\item Repeat from step 2 untill the photon reaches the HI surface at $\tau$.  
+\item Repeat from step ii untill the photon reaches the HI surface at $\tau$.  
 
-\end{itemize}
+\end{enumerate}
 
 With this method the final frequency $x_{out}$, the average number of scatterings $N_{scatt}$ can be computed for every step in the random walk.
 
@@ -564,21 +562,21 @@ With this method the final frequency $x_{out}$, the average number of scattering
 Using the MC method explained above different RT  codes 
 \citep{DijkstraKramer, Laursen09, Verhamme06, CLARA}
 have been developed in order to understand the effect of the gas kinematics in
-the \lya line, expanding/contracting shell/spherical geometries
-has been broadly studied \citep{Ahn03,Verhamme06,Dijkstra06}.
-Realistic ISM/IGM medium has also been studied, the effect of a clumpy
+the \lya line. Expanding/contracting shell/spherical geometries
+have been broadly studied \citep{Ahn03,Verhamme06,Dijkstra06}.
+A realistic ISM/IGM medium has also been studied. The effect of a clumpy
 medium is discussed in \citep{Hansen06}. Anisotropic \ly emission 
-has been studied by \citep{Zheng2013}. Realistic expanding mediums 
+has been studied by \citep{Zheng2013}. Realistic expanding media 
 in cavities has been recently studied by  \citep{Behrens2014} 
 Hydrodynamic simulations have studied the outcoming spectra of
-LAEs in large scale simulations \cite{Forero12}. 
+LAEs in large scale simulations (\cite{Forero12}). 
 Recently Monte Carlo codes have been used in hydrodynamic 
 simulations to study in detail individual galaxies and galaxies 
 in the cosmic web.
 \citep{Laursen09,Barnes11,Verhamme12,Yajima12}
 
 Figure \ref{fig:out} shows the effect of outflow/inflow kinematics, 
-In the outflow regime photons are blueshifted and the blue part of the line
+in the outflow regime photons are blueshifted and the blue part of the line
 is stronger than the red part. In the inflow regime the opposite effect
 is carried out, the \ly photons are redshifted. 
 
@@ -586,7 +584,7 @@ is carried out, the \ly photons are redshifted.
 \begin{center}
 \includegraphics[scale=0.4]{Figures/out.png}
 \end{center}\caption{\ly profile of outflows (Expanding medium) dot line, 
-and inflows (Contracting) dot-line. (Image credit: CLARA's view on the escape fraction of \ly photons in high redshift galaxies. J.E Forero-Romero, et al 2011)\label{fig:out}
+and inflows (Contracting) dot-dash line. (Image credit: CLARA's view on the escape fraction of \ly photons in high redshift galaxies. J.E Forero-Romero, et al 2011)\label{fig:out}
  }
 \end{figure}
 
@@ -594,26 +592,26 @@ and inflows (Contracting) dot-line. (Image credit: CLARA's view on the escape fr
 
 In this thesis we study the effect of rotation, an intrinsic
  characteristic of galaxies, on the morphology
-of the \lya outcoming profile, to this aim we implement a solid body
+of the \lya outcoming profile. To this aim we implement a solid body
 rotation model in the radiative transfer code \verb+CLARA+ \citep{CLARA}.
-All the codes used for the analysis of this work is reproducible
+All the codes used for the analysis of this work are reproducible
 and public available in \href{https://github.com/jngaravitoc/RotationLyAlpha}{github}.
 
 \subsection{The importance of modelling the effect of gas bulk rotation}
 
-Untill now the effect of rotation have never been studied, and this is 
+Until now the effect of rotation have never been studied, and this is 
 an intrinsic properties of all galaxies. In this work we study for the 
-first time the effect of galaxy rotation the morphology of the \ly line.
+first time the effect of galaxy rotation on the morphology of the \ly line.
 
-Modelling the effect of rotation in the morphology of the \ly line, push
+Modelling the effect of rotation in the morphology of the \ly line push
 further our understanding of the kinematics effects on the \ly line. 
 With these models a realistic analysis can be made in observed \ly spectra. 
-Now a distinction between the different stages of the gas kinematics
+Specially a distinction between the different stages of the gas kinematics
  outflow/inflow, anisotropic \ly emission, shell cavities and now
  rotation is possible.
 
-Deriving and analytic expression for rotation is also important for
-the community, computing an analytic solution is more efficient than
+Deriving an analytic expression for rotation is also important for
+the community. Computing an analytic solution is more efficient than
 making all the radiative transfer simulation. Radiative transfer codes
 can be tested against the analytic solution and observed spectra could
 be easily fitted  with the model. 
@@ -627,23 +625,23 @@ in a clumpy media. In this thesis we study the effect
 of rotation in the morphology of the \ly profile.  
 
 We model a galaxy as a sphere, with an homogeneous mixture of gas and dust. 
-We took the rotation velocity, the optical depth, the viewing angle as free
+We take the rotation velocity, the optical depth, the viewing angle as free
 parameters of the model. We also have two different sources of \ly photons:
 A central distribution in the galaxy and an homogeneous distribution. 
 
 We quantify the effect of rotation with the following characteristics: 
 Escape fraction of \ly photons, the width of the \ly line, the average number
-of scatterings of the \ly photons and with the position of the \ly line maximum.
+of scatterings of the \ly photons and the position of the \ly line maximum.
 
-Our main finding is that rotation do have an important effect on the morphology 
-of the \ly line. Specially in the width of the line and in the position of the 
+Our main finding is that rotation does have an important effect on the morphology 
+of the \ly line, specially in the width of the line and in the position of the 
 maxima. While the average number of scatterings  and the scape
 fraction remain constant.
 
 The line broadens proportional to the rotation velocity, and also the flux in 
 the middle of the line increases with rotation.
 
-The axis of rotation breaks the symmetry of the system, Althogh 
+The axis of rotation breaks the symmetry of the system, althogh 
 observers in different viewing angle with respect to the rotation axis
 observe the same amount of flux of the \ly profile. But the morphology
 of the profile is affected with the observer position, at some angles
@@ -651,10 +649,10 @@ the profile is double-peaked and others have single peaked profiles.
  
  
 With these results an approximated analytical solution was derived, 
-taking into the account that the radiative transfer inside de gas
+taking into account that the radiative transfer inside de gas
 cloud is exactly as in the static case. In the sphere surface
-a Doppler shift due to the difference velocity of an external 
-observer and the surface have to be taken into account.  
+a Doppler shift due to the difference velocity between an external 
+observer and the surface has to be taken into account.  
 
 
 \subsection{Future work}
@@ -669,22 +667,22 @@ such as outflows and rotation.
 
 
 \item There are LAEs which are governed by rotation, also 
-have approximated spherical geometries and the main \ly sources are in the center. 
+have approximately spherical geometries and the main \ly sources are in the center. 
 With these properties such galaxies have the same properties 
 that we studied in this work.  
 Fitting \ly line profile in order  to measure the rotational 
 velocities of such galaxies would be the direct application 
 and test of our model. 
 
-To this aim we are fitting our model using a Marov Chain Monte-Carlo 
+To this aim we are fitting our model using a Markov Chain Monte-Carlo 
 method to the observed compact dwarf galaxy \verb+TOL1214-277+\citep{Thuan97, Verhamme15}
-. The spectra of this galaxy is shown in Fig.\ref{fig:tol}, 
-this galaxy have properties that lead us to derive the rotational 
+. The spectrum of this galaxy is shown in Fig.\ref{fig:tol} 
+this galaxy has properties that lead us to derive the rotational 
 velocity; it is a compact dwarf galaxy whose geometry can be approximated by a sphere, 
-is young and there is no evidence of outflows see \citep{Verhamme15} for a detailed
-discussion, in that paper this triple-peaked spectum could not be explained
-with the current radiative transfer models. While in our rotation 
-model is a common feature to see a triple-peaked spectrum. 
+is young and there is no evidence of outflows (see \citep{Verhamme15}) for a detailed
+discussion, in that study this triple-peaked spectum could not be explained
+with the current radiative transfer models while in our rotation 
+model it is possible to see a triple-peaked spectrum. 
 
 \begin{figure} 
 \begin{center}

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 tau = 1E6
 T = 1E4
-Delta_v = 128.5 * T**(1/2.) / 3E4
+Delta_v = 128.5 * T**(1/2.)*1000 / 3E7
 a = 1 / (8.0*np.pi * Delta_v) 
 x = np.linspace(-100, 100, 100)
 

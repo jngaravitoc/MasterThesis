@@ -29,6 +29,7 @@
 
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 \usepackage{hyperref}
+\usepackage{enumerate}
 \usepackage{float}
 \usepackage{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
 \hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
@@ -153,7 +154,7 @@ Astronomy group\\Physics Department\\[2cm] % Research group name and department 
 
 \textit{``It would obviously be rewarding if our current theoretical
 ideas are confirmed by future observations, but it might be even more
-exciting if this ideas are modified."}
+exciting if these ideas are modified."}
 
 \begin{flushright}
 Abraham Loeb
@@ -167,33 +168,27 @@ Abraham Loeb
 %	ABSTRACT PAGE
 %----------------------------------------------------------------------------------------
 
-%\addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
+\addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
 
-%\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
 
-%We present results of radiative transfer calculations to measure the
-%impact of gas bulk rotation on the morphology of the Lyman $\alpha$
-%emission line in distant galaxies.
-%We model a galaxy as a sphere with an homogeneous mixture of dust and
-%hydrogen at a constant temperature.
-%These spheres undergo solid-body rotation with maximum velocities in
-%the range $0-300$ \kms and neutral hydrogen optical depths in the
-%range $\tau_{\rm H}=10^{5}-10^{7}$.
-%We consider two types of source distributions in the sphere: central and
-%homogeneous.
-%Our main result is that rotation introduces a dependence of the
-%line morphology with viewing angle and rotational velocity.
-%Observations with a line of sight parallel to the rotation axis yield
-%line morphologies similar to the static case.
-%For lines of sight perpendicular to the rotation axis both the intensity at the line
-%center and the line width increase with rotational velocity.
-%Along the same line of sight, the line becomes single peaked at rotational
-%velocities close to half the line width in the static case.
-%Notably, we find that rotation does not induce any spatial anisotropy in the integrated line flux, the escape fraction or the average number of scatterings. This is because Lyman $\alpha$ scattering through a rotating solid-body proceeds identical as in the static case. The only difference is the doppler shift from the different
-%regions in the sphere that move with respect to the observer. This
-%allows us to derive an analytic approximation for the viewing-angle
-%dependence of the emerging spectrum, as a function of rotational velocity.
-%}
+In this thesis the effect of gas bulk solid body rotation on 
+the morphology of the Lyman $\alpha$ emission line of galaxies
+is studied. To this aim radiative transfer simulations 
+were implemented for spherical galaxies rotating
+in the range $0-300$ \kms and neutral Hydrogen optical depths in the
+range $\tau_{\rm H}=10^{5}-10^{7}$. This is studied for the cases of central 
+Lyman $\alpha$ photons emission and an homogeneous emission inside
+the homogeneous mixture of dust and hydrogen. 
+The main result is that rotation increases the width of the line and the flux at the 
+center of the line. Rotation also introduces a dependence of the
+line morphology with viewing angle.
+Due to the fact that rotation does not induce any spatial 
+anisotropy in the integrated line flux, the escape fraction 
+or the average number of scatterings an analytic approximation for 
+the viewing-angle dependence of the emerging spectrum, 
+as a function of rotational velocity is derived.
+}
 
 %\clearpage % Start a new page
 
